@@ -10,10 +10,12 @@
 		
 		<link rel="stylesheet" href="css/minitip.css" />
 		<link rel="stylesheet" href="css/site.css" />
+		<link rel="stylesheet" href="css/buttons.css" />
 		
 		<script type="text/javascript" src="js/miniTip.js" ></script>
 	</head>
 	<style>
+	
 		.mainContainer{
 			width: 55%;
 			height: 1500px;
@@ -48,9 +50,10 @@
 			border-radius: 50px;
 			/*box-shadow:0px 0px 2px 0px #000000;*/
 			z-index: 5;
+          transition-property: all;
+          transition-duration: 0.2s;
 		}
 		.btn-contact:hover{
-			transition: background-color 0.2s, color 0.5s;
 			background-color: white;
 			color:#FF5252;
 		}
@@ -66,17 +69,32 @@
 		    right: 26.2%;
 		    top: 221px;
 		}
-		.navcontainer{
+		.navcontainer,.contentcontainer{
 			margin-top: 5%;
 			/*margin-left: 2%;*/
+			color:white;
 			
 		}
+		.tab-content{
+			margin-left: 10%;
+		}
 		.navbtn{
-			border-radius: 0px;
-			margin-bottom: 2%;
-			text-align: left;
-			padding-left:5px;
-			;
+			color:white;
+			font-size: 18px;
+          transition-property: all;
+          transition-duration: 0.2s;
+		}
+		hr{
+			margin-top: 0;
+			margin-bottom: 0;
+			width: 100%;
+    		/*left: 0;*/
+    		/*position: absolute;*/
+		}
+		
+		.nav>li>a:focus, .nav>li>a:hover{
+			color:#2196F3;
+			background-color:white;
 		}
 	</style>
 	
@@ -95,18 +113,27 @@
 			<div class="buttomContainer">
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 navcontainer">
-						<!--<a class="navbtn">about me</a>
-						<a class="navbtn">what I have done</a>
-						<a class="navbtn">why I learn programming</a>
-						<a class="navbtn">about this page</a>-->
-						<ul class="nav nav-stacked">
-							<li><a href="#">about me</a></li>
-							<li><a href="#">what I have done</a></li>
-							<li><a href="#">why I learn programming</a></li>
-							<li><a href="#">about this page</a></li>
+						<ul class="nav nav-stacked" role="tablist">
+							<li class="active"><a class="navbtn" data-toggle="tab" href="#tab1">about me</a></li>
+							<hr />
+							<li><a class="navbtn" data-toggle="tab" href="#tab2">what I have done</a></li>
+							<hr />
+							<li><a class="navbtn" data-toggle="tab" href="#tab3">why I learn programming</a></li>
+							<hr />
+							<li><a class="navbtn" data-toggle="tab" href="#tab4">about this page</a></li>
 						</ul>
+						
 					</div>
+					
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 contentcontainer">
+						
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="tab1">My name is Con Xiong</div>
+							<div role="tabpanel"  class="tab-pane fade" id="tab2">Where are you from?</div>
+							<div role="tabpanel"  class="tab-pane fade" id="tab3">Can you buy a cola for me?</div>
+							<div role="tabpanel"  class="tab-pane fade" id="tab4">Thanks.</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>
