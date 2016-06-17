@@ -1,0 +1,67 @@
+body {
+    font-family: helvetica,'Georgia',arial,sans-serif;
+    background-color: #fafbf1;
+    color: #3C3C3C;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+h1 strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#main {
+    width: 960px;
+    font-weight: 100;
+    margin:  0 auto;
+}
+
+#main section {
+    width: 260px;
+    float: left;
+    padding:  5px 60px 5px 0;
+}
+
+#main .tip-content {
+    display: none;
+}
+
+#main p {
+    padding: 10px 0;
+    color: #D95D5B;
+    font-weight: 100;
+}
+
+#main .tip:hover {
+    cursor: pointer;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

@@ -1,0 +1,48 @@
+/* THEMES - feel free to customize them */
+
+/* black - default */
+.minitip-content {
+    font-size: 11px;
+    padding: 8px 10px;
+    color: #fff;
+
+    text-shadow: 0 0 2px #000;
+    background-color: #3C3C3C;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    box-shadow: 0 0 3px #555;
+    -webkit-box-shadow: 0 0 3px #555;
+    -moz-box-shadow: 0 0 3px #555;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+/* red */
+.green .minitip-content{
+    background-color: #A8D18B;
+    border: 1px solid rgba(67, 144, 102, 0.25);
+    color: #3C3C3C;
+    text-shadow: 0 0 2px #FAFBF1;
+}
+
+/* blue */
+.blue .minitip-content{
+    background-color: #4FC6E0;
+    border: 1px solid rgba(79, 198, 224, 0.25);
+}
+
+/* blue */
+.red .minitip-content{
+    background-color: #F15A29;
+    border: 1px solid rgba(241, 90, 41, 0.25);
+}
+
+/* yellow */
+.yellow .minitip-content{
+    background-color: #FBF59D;
+    border: 1px solid rgba(251, 245, 157, 0.25);
+    color: #3C3C3C;
+    text-shadow: 0 0 2px #FAFBF1;
+}

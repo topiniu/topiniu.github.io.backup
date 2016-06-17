@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<link rel="stylesheet" href="css/minitip.css" />
+		<link rel="stylesheet" href="css/site.css" />
+		
+		<script type="text/javascript" src="js/miniTip.js" ></script>
+	</head>
+	<body>
+		<br><br><br>
+		<span class="tip" title="tooltip content">
+  some text
+</span>
+
+<script>
+	$(function() {
+  $('.tip').miniTip({
+  	position:"bottom"
+  });
+});
+</script>
+	</body>
+</html>
