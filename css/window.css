@@ -1,18 +1,21 @@
 #window{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background: transparent;
-    border:10px solid rgb(204,170,83);
+    border:10px solid #6A3523;
     position: absolute;
-    z-index: 1;
+    overflow: hidden;
+    top:2%;
+    right:5%;
+    z-index: 9999;
 }
 #window:before{
     content: '';
     display: block;
     width:10px;
-    height:500px;
-    background-color: rgb(204,170,83);
-    position: relative;
+    height:3500px;
+    background-color: #6A3523;
+    position: absolute;
     left:50%;
     margin-left:-5px;
     z-index: 9999;
@@ -20,20 +23,21 @@
 #window:after{
     content: '';
     display: block;
-    width:500px;
+    width:350px;
     height:10px;
-    background-color: rgb(204,170,83);
-    position: relative;
-    bottom:50%;
+    background-color: #6A3523;
+    position: absolute;
+    top:50%;
     margin-bottom:-5px;
     z-index: 9999;
 }
 #sky{
     background: linear-gradient(0deg, #153d54, #061117);
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     position: absolute;
     top: 0px;
+    z-index: 1;
 }
 .snow{
     position: absolute;
@@ -42,7 +46,7 @@
     height:7px;
     border-radius: 100%;
     background: #FFFFFF;
-    z-index:1;
+    z-index:2;
 }
 .snow:nth-child(3),.snow:nth-child(7),.snow:nth-child(10),
 .snow:nth-child(16),.snow:nth-child(20),.snow:nth-child(12){
@@ -60,28 +64,8 @@
 }
 @keyframes snow-fall {
     0%{top:3px}
-    100%{top:520px}
+    100%{top:360px}
 }
-/*@keyframes snow-shake {*/
-    /*0%{*/
-        /*-webkit-transform: translateX(0px);*/
-        /*-moz-transform: translateX(0px);*/
-        /*-ms-transform: translateX(0px);*/
-        /*-o-transform: translateX(0px);*/
-        /*transform: translateX(0px);}*/
-    /*50%{*/
-        /*-webkit-transform: translateX(80px);*/
-        /*-moz-transform: translateX(80px);*/
-        /*-ms-transform: translateX(80px);*/
-        /*-o-transform: translateX(80px);*/
-        /*transform: translateX(80px);}*/
-    /*100%{*/
-        /*-webkit-transform: translateX(0px);*/
-        /*-moz-transform: translateX(0px);*/
-        /*-ms-transform: translateX(0px);*/
-        /*-o-transform: translateX(0px);*/
-        /*transform: translateX(0px);}*/
-/*}*/
 .snow{
     position: absolute;
     top:-10%;
@@ -118,9 +102,9 @@
     animation-delay: 0s;
 }
 .snow:nth-of-type(2){
-     left:20%;
+    left:20%;
     animation-delay: 0.3s;
- }
+}
 .snow:nth-of-type(3){
     left:10%;
     animation-delay: 5s;
@@ -212,4 +196,26 @@
 .snow:nth-of-type(25){
     left:32%;
     animation-delay: 6.6s;
+}
+#groundLeft{
+    position: absolute;
+    width:300px;
+    height:100px;
+    background: linear-gradient(0deg,#FFFFFF,#ccf0fd);
+    border-radius:40%;
+    top:300px;
+    left:150px;
+    transform: rotate(-7deg);
+    z-index: 3;
+}
+#groundRight{
+    position: absolute;
+    width:300px;
+    height:100px;
+    background: linear-gradient(0deg,#FFFFFF,#ccf0fd);
+    border-radius:40%;
+    top:300px;
+    left:-30%;
+    transform: rotate(15deg);
+    z-index: 3;
 }
