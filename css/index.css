@@ -1,0 +1,215 @@
+#window{
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border:10px solid rgb(204,170,83);
+    position: absolute;
+    z-index: 1;
+}
+#window:before{
+    content: '';
+    display: block;
+    width:10px;
+    height:500px;
+    background-color: rgb(204,170,83);
+    position: relative;
+    left:50%;
+    margin-left:-5px;
+    z-index: 9999;
+}
+#window:after{
+    content: '';
+    display: block;
+    width:500px;
+    height:10px;
+    background-color: rgb(204,170,83);
+    position: relative;
+    bottom:50%;
+    margin-bottom:-5px;
+    z-index: 9999;
+}
+#sky{
+    background: linear-gradient(0deg, #153d54, #061117);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+}
+.snow{
+    position: absolute;
+    display: block;
+    width:7px;
+    height:7px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    z-index:1;
+}
+.snow:nth-child(3),.snow:nth-child(7),.snow:nth-child(10),
+.snow:nth-child(16),.snow:nth-child(20),.snow:nth-child(12){
+    background-color: rgba(255,255,255,.5);
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+}
+.snow:nth-child(5),.snow:nth-child(9),.snow:nth-child(13),
+.snow:nth-child(17),.snow:nth-child(23),.snow:nth-child(25){
+    background-color: rgba(255,255,255,0.6);
+    width:9px;
+    height:9px;
+    border-radius: 100%;
+}
+@keyframes snow-fall {
+    0%{top:3px}
+    100%{top:520px}
+}
+/*@keyframes snow-shake {*/
+    /*0%{*/
+        /*-webkit-transform: translateX(0px);*/
+        /*-moz-transform: translateX(0px);*/
+        /*-ms-transform: translateX(0px);*/
+        /*-o-transform: translateX(0px);*/
+        /*transform: translateX(0px);}*/
+    /*50%{*/
+        /*-webkit-transform: translateX(80px);*/
+        /*-moz-transform: translateX(80px);*/
+        /*-ms-transform: translateX(80px);*/
+        /*-o-transform: translateX(80px);*/
+        /*transform: translateX(80px);}*/
+    /*100%{*/
+        /*-webkit-transform: translateX(0px);*/
+        /*-moz-transform: translateX(0px);*/
+        /*-ms-transform: translateX(0px);*/
+        /*-o-transform: translateX(0px);*/
+        /*transform: translateX(0px);}*/
+/*}*/
+.snow{
+    position: absolute;
+    top:-10%;
+    z-index: 9999;
+
+    animation-name: snow-fall,snow-shake;
+
+    animation-duration: 7s;
+
+    animation-timing-function:linear, ease-in-out;
+
+    animation-iteration-count: infinite,infinite;
+
+    animation-play-state: running,running;
+}
+.snow:nth-child(3),.snow:nth-child(7),.snow:nth-child(10),
+.snow:nth-child(16),.snow:nth-child(20),.snow:nth-child(12){
+    position: absolute;
+    top:-10%;
+    z-index: 9999;
+
+    animation-name: snow-fall,snow-shake;
+
+    animation-duration: 6s;
+
+    animation-timing-function:linear, ease-in-out;
+
+    animation-iteration-count: infinite,infinite;
+
+    animation-play-state: running,running;
+}
+.snow:nth-of-type(1){
+    left:5%;
+    animation-delay: 0s;
+}
+.snow:nth-of-type(2){
+     left:20%;
+    animation-delay: 0.3s;
+ }
+.snow:nth-of-type(3){
+    left:10%;
+    animation-delay: 5s;
+}
+.snow:nth-of-type(4){
+    left:12%;
+    animation-delay: 2.5s;
+}
+.snow:nth-of-type(5){
+    left:61%;
+    animation-delay: 2s;
+}
+.snow:nth-of-type(6){
+    left:57%;
+    animation-delay: 4.1s;
+}
+.snow:nth-of-type(7){
+    left:82%;
+    animation-delay: 1s;
+}
+.snow:nth-of-type(8){
+    left:72%;
+    animation-delay: 5.2s;
+}
+.snow:nth-of-type(9){
+    left:6%;
+    animation-delay: 7s;
+}
+.snow:nth-of-type(10){
+    left:38%;
+    animation-delay: 7.4s;
+}
+.snow:nth-of-type(11){
+    left:90%;
+    animation-delay: 3.2s;
+}
+.snow:nth-of-type(12){
+    left:75%;
+    animation-delay: 9s;
+}
+.snow:nth-of-type(13){
+    left:37%;
+    animation-delay: 5s;
+}
+.snow:nth-of-type(14){
+    left:66%;
+    animation-delay: 6.2s;
+}
+.snow:nth-of-type(15){
+    left:58%;
+    animation-delay: 4.5s;
+}
+.snow:nth-of-type(16){
+    left:25%;
+    animation-delay: 4.8s;
+}
+.snow:nth-of-type(17){
+    left:20%;
+    animation-delay: 1.3s;
+}
+.snow:nth-of-type(18){
+    left:44%;
+    animation-delay: 1.4s;
+}
+.snow:nth-of-type(19){
+    left:40%;
+    animation-delay: 3.8s;
+}
+.snow:nth-of-type(20){
+    left:77%;
+    animation-delay: 10s;
+}
+.snow:nth-of-type(21){
+    left:52%;
+    animation-delay: 7.5s;
+}
+.snow:nth-of-type(22){
+    left:93%;
+    animation-delay: 7.9s;
+}
+.snow:nth-of-type(23){
+    left:85%;
+    animation-delay: 1.8s;
+}
+.snow:nth-of-type(24){
+    left:96%;
+    animation-delay: 8.2s;
+}
+.snow:nth-of-type(25){
+    left:32%;
+    animation-delay: 6.6s;
+}
