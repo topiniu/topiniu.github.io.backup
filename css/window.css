@@ -8,7 +8,7 @@
     overflow: hidden;
     top:11%;
     right:12%;
-    z-index: 9999;
+    z-index: 99;
 }
 #window:before{
     transition: width 0.8s,height 0.8s;
@@ -224,35 +224,4 @@
     left: -30%;
     transform: rotate(13deg);
     z-index: 3;
-}
-
-@media all and (max-width: 800px){
-    #window{
-        transition: width 0.8s,height 0.8s;
-        width:300px;
-        height:300px;
-    }
-    #window:before{
-        transition: width 0.8s,height 0.8s;
-        height:300px;
-    }
-    #window:after{
-        transition: width 0.8s,height 0.8s;
-        width:300px;
-    }
-    #sky{
-        transition: width 0.8s,height 0.8s;
-        width: 300px;
-        height: 300px;
-    }
-    #groundLeft{
-        transition: top 0.8s,left 0.8s;
-        top: 243px;
-        left: 112px;
-    }
-    #groundRight{
-        transition: top 0.8s,left 0.8s;
-        top: 285px;
-        left: -20%;
-    }
 }
