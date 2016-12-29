@@ -1,12 +1,12 @@
 #pc_container{
     transition: left 0.5s;
-    width:500px;
-    /*height:500px;*/
-    position: absolute;
-    top:30%;
-    left:35%;
-    /*border:1px solid #000;*/
-    z-index:9999;
+    width: 500px;
+    /* height: 500px; */
+    position: relative;
+    top: -51%;
+    left: 0;
+    /* border: 1px solid #000; */
+    z-index: 9999;
 }
 
 #pc_border{

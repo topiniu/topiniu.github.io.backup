@@ -48,6 +48,13 @@
 
 /*Clock*/
     #clockContainer{
+        transition: left 0.5s;
         left:5%;
+    }
+
+    /*CUP*/
+    #cup_container{
+        transition: left 0.5s;
+        left:5% !important;
     }
 }
