@@ -109,6 +109,10 @@
     0%{top:-200px;}
     100%{top:200px;}
 }
+@-webkit-keyframes codeFall {
+    0%{top:-200px;}
+    100%{top:200px;}
+}
 .code{
     animation-name: codeFall;
     animation-duration: 6s;

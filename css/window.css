@@ -70,6 +70,10 @@
     0%{top:3px}
     100%{top:360px}
 }
+@-webkit-keyframes  snow-fall {
+    0%{top:3px}
+    100%{top:360px}
+}
 .snow{
     position: absolute;
     top:-10%;

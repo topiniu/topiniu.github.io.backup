@@ -19,7 +19,7 @@ body{
     /* top: 8%; */
     left: 0;
     position: absolute;
-    width: 100%;
+    width: 125%;
     height: 80%;
     background-image: linear-gradient(335deg,#91493A 22px,transparent 22px), linear-gradient(157deg,#91493A 22px,transparent 22px), linear-gradient(335deg,#91493A 22px,transparent 22px), linear-gradient(157deg,#91493A 22px,transparent 22px);
     background-position: 0 2px,5px 36px,22px 32px,28px 8px;
@@ -31,7 +31,7 @@ body{
     margin: 0;
     top: 75%;
     left: 0;
-    width: 100%;
+    width: 125%;
     height: 26%;
     box-shadow: -4px -2px 8px #b9b2b2;
 }

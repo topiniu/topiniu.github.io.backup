@@ -57,4 +57,30 @@
         transition: left 0.5s;
         left:5% !important;
     }
+
+
+    /*Wall*/
+    #backgroundWall{
+        transition: height 0.5s;
+        height:55%;
+    }
+
+    #floor{
+        transition: top 0.5s,height 0.5s;
+        top:55%;
+        height:100%;
+    }
+}
+@media all and (orientation: landscape){
+
+    /*Wall*/
+    #backgroundWall{
+        transition: height 0.5s;
+        height:100%;
+    }
+
+    #floor{
+        transition: top 0.5s;
+        top:100%;
+    }
 }
