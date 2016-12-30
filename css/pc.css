@@ -121,13 +121,13 @@
 }
 
 #desk{
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 700px;
 }
 #desk_top{
     width:700px;
     height:20px;
-    background-color: rgb(204,189,172);
+    background-color: rgb(142,131,113);
     box-shadow: 0px 3px 3px 1px rgb(149, 129, 113);
     margin:0 auto;
     position: relative;
@@ -137,9 +137,10 @@
 #desk_legLeft,#desk_legRight{
     width:30px;
     height:250px;
-    background-color: rgb(224,206,184);
+    background-color: rgb(129,115,86);
     z-index: 2;
     float: left;
+    box-shadow: 0px 3px 4px rgb(109, 101, 95);
 }
 #desk_legRight{
     width:200px;

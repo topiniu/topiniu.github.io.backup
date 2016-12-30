@@ -9,8 +9,8 @@
     position: relative;
     width: 300px;
     height: 20px;
-    background-color: rgb(224,206,184);
-    box-shadow: 2px 3px 5px #afa9a9;
+    background-color: rgb(143, 127, 95);
+    box-shadow: 2px 3px 5px #878282;
     top: 96px;
 }
 .bookItem{
@@ -23,7 +23,7 @@
     box-shadow: 0px 0px 5px #7f7a7a;
 }
 .bookItem:nth-child(1){
-
+    margin-right:20px;
     border-color: rgb(84,41,12);
     background-color: rgb(84,41,12);
 }
