@@ -56,13 +56,13 @@
 
 @media all and (max-width: 768px) {
     #floor{
-        width:500%;
+        width:280%;
         height:100%;
         top:80%;
     }
 
     #backgroundWall{
-        width:500%;
+        width:280%;
         height:80%;
     }
 
@@ -99,7 +99,7 @@
     }
 
     #cup_container{
-        left:90%;
+        left:10%;
     }
 
     #booksContainer{

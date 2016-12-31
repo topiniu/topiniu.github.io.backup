@@ -120,7 +120,7 @@
     100%{top:200px;}
 }
 .code{
-    -webkit-animation-name: codeFall;
+    -webkit-animation-name: wk-codeFall;
     animation-name: wk-codeFall;
 
     -webkit-animation-duration: 6s;
