@@ -64,6 +64,7 @@
     #backgroundWall{
         width:280%;
         height:80%;
+        top:0;
     }
 
 
@@ -99,7 +100,7 @@
     }
 
     #cup_container{
-        left:10%;
+        left:10% !important;
     }
 
     #booksContainer{
