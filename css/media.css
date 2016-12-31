@@ -113,8 +113,8 @@
         font-size: 16px;
     }
 
-    h4{
-        font-size: 12px !important;
+    #booksContainer .bookItem h4{
+        font-size: 36px !important;
     }
 }
 
