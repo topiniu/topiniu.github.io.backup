@@ -83,44 +83,59 @@
 }
 .code:nth-child(1){
     animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 .code:nth-child(2){
     padding-left: 20px;
     animation-delay: 1s;
+    -webkit-animation-delay: 1s;
 }
 .code:nth-child(3){
     padding-left: 40px;
     animation-delay: 2s;
+    -webkit-animation-delay: 2s;
 }
 .code:nth-child(4){
     padding-left: 60px;
     animation-delay: 3s;
+    -webkit-animation-delay: 3s;
 }
 .code:nth-child(5){
     padding-left: 20px;
     animation-delay: 4s;
+    -webkit-animation-delay: 4s;
 }
 .code:nth-child(6){
     padding-left: 40px;
     animation-delay: 5s;
+    -webkit-animation-delay: 5s;
 }
 
 @keyframes codeFall {
     0%{top:-200px;}
     100%{top:200px;}
 }
-@-webkit-keyframes codeFall {
+@-webkit-keyframes wk-codeFall {
     0%{top:-200px;}
     100%{top:200px;}
 }
 .code{
-    animation-name: codeFall;
+    -webkit-animation-name: codeFall;
+    animation-name: wk-codeFall;
+
+    -webkit-animation-duration: 6s;
     animation-duration: 6s;
+
+    -webkit-animation-delay: 1s;
     animation-delay: 1s;
+
+    -webkit-animation-timing-function:linear, ease-in-out;
     animation-timing-function:linear, ease-in-out;
 
+    -webkit-animation-iteration-count: infinite,infinite;
     animation-iteration-count: infinite,infinite;
 
+    -webkit-animation-play-state: running,running;
     animation-play-state: running,running;
 }
 
