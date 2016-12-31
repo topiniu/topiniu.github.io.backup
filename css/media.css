@@ -72,7 +72,7 @@
         transition: width 0.8s,height 0.8s;
         width: 200px;
         height: 200px;
-        left: 98%;
+        left: 99%;
     }
     #window:before{
         transition: width 0.8s,height 0.8s;
