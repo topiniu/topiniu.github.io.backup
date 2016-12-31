@@ -1,5 +1,5 @@
 
-@media all and (max-width: 1000px){
+@media (min-width: 768px) and (max-width: 1200px){
 
 /*Window*/
     #window{
@@ -58,29 +58,80 @@
         left:5% !important;
     }
 
+}
 
-    /*Wall*/
-    #backgroundWall{
-        transition: height 0.5s;
-        height:55%;
+@media all and (max-width: 768px) {
+    #floor{
+        width:500%;
+        height:100%;
+        top:80%;
     }
 
-    #floor{
-        transition: top 0.5s,height 0.5s;
-        top:55%;
-        height:100%;
+    #backgroundWall{
+        width:500%;
+        height:80%;
+    }
+
+
+    /*Window*/
+    #window{
+        transition: width 0.8s,height 0.8s;
+        width: 200px;
+        height: 200px;
+        left: 98%;
+    }
+    #window:before{
+        transition: width 0.8s,height 0.8s;
+        height:200px;
+    }
+    #window:after{
+        transition: width 0.8s,height 0.8s;
+        width:200px;
+    }
+    #sky{
+        transition: width 0.8s,height 0.8s;
+        width: 200px;
+        height: 200px;
+    }
+    #groundLeft{
+        transition: top 0.8s,left 0.8s;
+        top: 143px;
+        left: 50%;
+    }
+    #groundRight{
+        transition: top 0.8s,left 0.8s;
+        top: 185px;
+        left: -10%;
+    }
+
+    #cup_container{
+        left:90%;
+    }
+
+    #booksContainer{
+        width:200px !important;
     }
 }
-@media all and (orientation: landscape){
 
-    /*Wall*/
-    #backgroundWall{
-        transition: height 0.5s;
-        height:100%;
-    }
+/*@media all and (min-height: 1200px){*/
+    /*#floor{*/
 
-    #floor{
-        transition: top 0.5s;
-        top:100%;
-    }
-}
+        /*height:100%;*/
+        /*top:50%;*/
+    /*}*/
+
+    /*#backgroundWall{*/
+        /*height:50%;*/
+    /*}*/
+/*}*/
+/*@media (min-height: 375px) and (orientation:landscape){*/
+    /*#floor{*/
+
+        /*height:100%;*/
+        /*top:90%;*/
+    /*}*/
+
+    /*#backgroundWall{*/
+        /*height:90%;*/
+    /*}*/
+/*}*/

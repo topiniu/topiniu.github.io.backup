@@ -14,6 +14,7 @@ body{
     top: 30%;
 }
 #backgroundWall{
+    transition: height 0.5s,top 0.5s;
     background-color: #B55E3D;
     margin: 0;
     /* top: 8%; */
@@ -26,6 +27,7 @@ body{
     background-size: 58px 58px;
 }
 #floor{
+    transition: height 0.5s,top 0.5s;
     position: absolute;
     background-color: rgb(134,137,148);
     margin: 0;
