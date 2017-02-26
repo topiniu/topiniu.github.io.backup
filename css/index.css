@@ -1,13 +1,34 @@
-.itemContainer{
-    width: 100%;
-    height:650px;
-}
-.itemContainer .row{
-    width:60%;
-}
-.showItem{
+body,html{
     width:100%;
     height:100%;
-    border:1px gray solid;
-    background-color: #2aabd2;
+    margin:0;
+    overflow: hidden;
 }
+.container{
+    width:100%;
+    height:100%;
+}
+.backContainer{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: 1;
+
+    background-color: transparent;
+}
+.colorScreen{
+    position: relative;
+    width:10%;
+    padding-bottom:10%;
+    height:0;
+
+    background-color: transparent;
+    float: left;
+    transition: background-color 2s;
+}
+.row{
+    overflow: hidden;
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
