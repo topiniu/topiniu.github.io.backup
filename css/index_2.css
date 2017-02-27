@@ -33,7 +33,7 @@
 .itemRight{
     padding:0 0 0 10px;
 }
-.frontContainer .contentContainer p{
+.frontContainer .contentContainer .name{
     color: #fff;
     display: inline;
     font-size:60px;
