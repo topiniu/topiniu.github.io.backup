@@ -50,12 +50,19 @@ function warpColor(){
 }
 
 $(function(){
+    $('.welcome').animate({
+        left:'0'
+    },1000,function(){
+        $('.welcome').delay(1800).animate({
+            left:'-100%'
+        },1000);
+    });
     choseCS();
     $('#fullpage').fullpage({
 
-        verticalCentered:false,
+        // verticalCentered:false,
         keyboardScrolling:true,
-        paddingTop:'10%',
+        // paddingTop:'10%',
         onLeave: function () {
             warpColor();
             choseCS();

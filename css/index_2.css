@@ -14,12 +14,12 @@
 
     /*position: absolute;*/
     /*top:40%;*/
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
 
 }
 .contentContainer .itemContainer{
     margin:0 auto;
-    width: 600px;
+    width: 423px;
     overflow: hidden;
 }
 .itemContainer div{
@@ -28,15 +28,21 @@
 .itemLeft{
     border-right: 2px solid white;
     padding: 0 10px 0 0;
+    text-align: center;
 
 }
 .itemRight{
-    padding:0 0 0 10px;
+    padding:10% 0 0 10px;
+}
+.itemRight p{
+    color: #FFF;
+    font-size:25px;
+    /*font-family: Arial;*/
 }
 .frontContainer .contentContainer .name{
     color: #fff;
     display: inline;
-    font-size:60px;
+    font-size:50px;
     font-weight: 900;
 }
 #myselfImg{
