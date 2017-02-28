@@ -28,6 +28,18 @@ body,html{
     float: left;
     transition: background-color 2s;
 }
+@media (min-width:768px) and (orientation: portrait) {
+    .colorScreen{
+        width:20%;
+        padding-bottom:20%;
+    }
+}
+@media (min-width:992px)  and (orientation: portrait) {
+    .colorScreen{
+        width:10%;
+        padding-bottom:10%;
+    }
+}
 .row{
     overflow: hidden;
     -ms-filter: blur(3px);
