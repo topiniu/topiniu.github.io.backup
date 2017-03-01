@@ -1,0 +1,64 @@
+.item2 .itemContainer{
+    display: block;
+    width:850px;
+}
+.item2 .itemContainer div{
+    float: left;
+}
+.item2 .itemContainer .yearContainer{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3c3c3c;
+
+}
+.item2 .itemContainer .yearContainer p{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 6px;
+    position: relative;
+    left: 50%;
+    margin-left: -28px;
+}
+.lineBox{
+    width:100px;
+    height:0;
+    border-bottom:2px solid #3c3c3c;
+
+    position: relative;
+    top: 19px;
+}
+.flag:after{
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    /* margin: 0 auto; */
+    left: 60%;
+    margin-left: -6px;
+    margin-top: -7px;
+    border-radius: 12px;
+    border: 2px solid #3c3c3c;
+}
+.endSign:after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 30px solid #3c3c3c;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    margin-top: -15px;
+    left: 100%;
+}
+.yearContainer:before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 200px;
+    border-left: 2px solid #3c3c3c;
+    margin-top: -190px;
+    /* left: 2%; */
+    margin-left: 3%;
+}
