@@ -52,13 +52,48 @@
     margin-top: -15px;
     left: 100%;
 }
-.yearContainer:before{
+.lineBoxH{
     position: absolute;
-    content: '';
-    width: 0;
     height: 200px;
-    border-left: 2px solid #3c3c3c;
-    margin-top: -190px;
-    /* left: 2%; */
-    margin-left: 3%;
+    width:2px;
+    background-color: #3c3c3c;
+
+    display: inline-block;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+.lineBottom{
+    top:auto;
+    margin-top:auto;
+    bottom:50%;
+    margin-bottom:-200px;
+}
+.lineShortA,.lineShortB{
+    height:130px;
+}
+.lineShortA{
+    margin-bottom:-130px !important;
+}
+.lineShortB{
+    margin-top:-130px !important;
+}
+.yearContent{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:50px;
+    padding:10px 10px;
+    background-color: #3c3c3c;
+    border-radius:10px;
+
+    transition: all 2s;
+    transform-origin: 50% 50%;
+}
+.yearContent p{
+    position: absolute;
+    margin:0;
+    color: #FFFFFF;
+    transform: translateZ(100px);
 }
