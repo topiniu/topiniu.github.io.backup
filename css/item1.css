@@ -21,7 +21,7 @@
     width: 423px;
     overflow: hidden;
 }
-.itemContainer div{
+.item1 .itemContainer div{
     float: left;
 }
 .itemLeft{
