@@ -37,12 +37,3 @@
            });
        }
    }
-        $(".year2012 .my_year p").css({
-            "font-size":"71px"
-        });
-        $(".year2012 .my_title p").css({
-            "font-size":"35px"
-        });
-        $(".year2012 .my_content p").css({
-            "font-size":"25px"
-        });
