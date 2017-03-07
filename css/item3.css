@@ -18,7 +18,7 @@
     position: absolute;
     z-index:-1;
 }
-.item3 .itemContainer .contentContainer .project_preview span{
+.item3 .itemContainer .contentContainer .project_preview a{
     position: absolute;
     width:200px;
     height:180px;
@@ -28,14 +28,16 @@
     background-color: rgba(255,255,255,0.3);
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 
     transition: all .5s
 }
-.item3 .itemContainer .contentContainer .project_preview span p{
+.item3 .itemContainer .contentContainer .project_preview a p{
     position: relative;
     top: 50%;
     /* margin-top: -17px; */
     font-size: 40px;
+    font-weight:bold;
     margin: 0;
     margin-top: -22.5px;
 }

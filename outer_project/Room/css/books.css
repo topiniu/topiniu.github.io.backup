@@ -1,0 +1,57 @@
+#booksContainer{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 185px;
+    left: 35px;
+}
+#book_holder{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(143, 127, 95);
+    box-shadow: 2px 3px 5px #878282;
+    top: 96px;
+}
+.bookItem{
+    width: 22px;
+    height: 85px;
+    border: 5px solid #668B8B;
+    float: right;
+    position: relative;
+    margin-right: 0.3px;
+    box-shadow: 0px 0px 5px #7f7a7a;
+}
+.bookItem:nth-child(1){
+    margin-right:20px;
+    border-color: rgb(84,41,12);
+    background-color: rgb(84,41,12);
+}
+.bookItem:nth-child(2){
+    border-color: rgb(12,52,125);
+    background-color: rgb(12,52,125);
+}
+.bookItem:nth-child(3){
+    background-color: rgb(0,100,0);
+    border-color: rgb(0,100,0);
+}
+.bookItem:nth-child(4){
+    border-color: rgb(237,237,128);
+    background-color: rgb(237,237,128);
+    /*color: black !important;*/
+    transform: rotate(20deg);
+    right: 15px;
+}
+.bookItem:nth-child(4) h4{
+    color: #000;
+}
+h4{
+    font-size: 12px;
+    transform: rotate(-88deg)translateX(-26px)translateY(-29px);
+    width: 80px;
+    height: 25px;
+    margin: 0;
+    color: white;
+    display: block;
+    font-family: Verdana, sans-serif;
+}

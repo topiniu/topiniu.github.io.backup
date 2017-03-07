@@ -3,10 +3,21 @@
  */
     var clz = "2012";
    $(".item2 .navBtnC .navBtn").click(function (e) {
+
+       $(".year" + clz).css({
+           "opacity":"0.3"
+       });
+
        var marginLeft = $(this).data("item");
        $(".item2 .itemContainer").animate({
            "margin-left":"-" + marginLeft + "px"
        },500);
+
+       var year = $(this).val();
+       clz = year;
+       $(".year" + clz).css({
+           "opacity":"1"
+       });
 
        // initFontSize(1);
        // var year = $(this).val();

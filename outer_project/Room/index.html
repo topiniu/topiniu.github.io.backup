@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+    content="width=device-width,
+        initial-scale=1,
+        maximum-scale=1,
+        user-scalable=yes">
+
+    <meta charset="UTF-8">
+    <title>topiniu's homepage</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/window.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/cup.css">
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="stylesheet" href="css/chair.css">
+    <link rel="stylesheet" href="css/photoWall.css">
+</head>
+<body>
+
+<div id="container">
+
+    <!--<div id="photoContainer">-->
+        <!--<div id="photo_top">-->
+            <!--<div class="imgContainer"><img id="img_1" src="img/photo_2.jpg"></div>-->
+            <!--<div class="imgContainer"><img id="img_4" src="img/photo_4.jpg"></div>-->
+        <!--</div>-->
+
+        <!--<div id="photo_bottom">-->
+            <!--<div class="imgContainer"><img id="img_2" src="img/photo_1.jpg"></div>-->
+            <!--<div class="imgContainer"><img id="img_3" src="img/photo_3.jpg"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div id="backgroundWall"></div>
+    <div id="floor"></div>
+    <div id="clockContainer">
+        <canvas id="clock" height="100px" width="100px"></canvas>
+    </div>
+
+    <div id="booksContainer">
+        <div class="bookItem">
+            <h4>JavaScript 权威指南</h4>
+        </div>
+        <div class="bookItem">
+            <h4>JavaScript 权威指南</h4>
+        </div>
+        <div class="bookItem">
+            <h4>JavaScript 权威指南</h4>
+        </div>
+        <div class="bookItem">
+            <h4>JavaScript 权威指南</h4>
+        </div>
+        <div id="book_holder"></div>
+    </div>
+    <div id="window">
+        <div id="sky">
+            <span class="snow"></span><!--1-->
+            <span class="snow"></span><!--2-->
+            <span class="snow"></span><!--3-->
+            <span class="snow"></span><!--4-->
+            <span class="snow"></span><!--5-->
+            <span class="snow"></span><!--6-->
+            <span class="snow"></span><!--7-->
+            <span class="snow"></span><!--8-->
+            <span class="snow"></span><!--9-->
+            <span class="snow"></span><!--10-->
+            <span class="snow"></span><!--11-->
+            <span class="snow"></span><!--12-->
+            <span class="snow"></span><!--13-->
+            <span class="snow"></span><!--14-->
+            <span class="snow"></span><!--15-->
+            <span class="snow"></span><!--16-->
+            <span class="snow"></span><!--17-->
+            <span class="snow"></span><!--18-->
+            <span class="snow"></span><!--19-->
+            <span class="snow"></span><!--20-->
+            <span class="snow"></span><!--21-->
+            <span class="snow"></span><!--22-->
+            <span class="snow"></span><!--23-->
+            <span class="snow"></span><!--27-->
+            <span class="snow"></span><!--28-->
+            <!--<span class="snow"></span>&lt;!&ndash;29&ndash;&gt;-->
+            <!--<span class="snow"></span>&lt;!&ndash;30&ndash;&gt;-->
+        </div>
+        <div id="groundLeft">
+
+        </div>
+
+        <div id="groundRight">
+
+        </div>
+    </div>
+    <div id="itemContainer">
+
+
+        <div id="pc_container">
+
+            <div id="pc_border">
+                <div id="pc_screen">
+                    <div class="code">
+                        <p class="blue">div </p><p class="red">id=</p><p class="green">"pc_container"</p>
+                        <p class="blue">div </p><p class="red">id=</p><p class="green">"pc_border"</p>
+                        <p class="blue">div </p><p class="red">id=</p><p class="green">"pc_screen"</p>
+                    </div>
+                    <div class="code">
+                        <p class="red">#pc_container </p>
+                        <p class="black">{</p>
+                        <p class="blue poper">width</p><p class="yellow">"500"<a class="green">px</a></p>
+                        <p class="blue poper">position</p><p class="green">absolute</p>
+                        <p class="blue poper">top</p><p class="yellow">20%</p>
+                        <p class="blue poper">left</p><p class="yellow">40%</p>
+                        <p class="black">}</p>
+                    </div>
+                    <div class="code">
+                        <p class="red">#pc_border </p>
+                        <p class="black">{</p>
+                        <p class="blue poper">position</p><p class="green">relative</p>
+                        <p class="blue poper">top</p><p class="yellow">2%</p>
+                        <p class="blue poper">left</p><p class="green">50%</p>
+                        <!--<p class="blue poper">border</p><p class="yellow">8<a class="green">px</a></p><p class="green">solid</p><p class="blue">#0C0B23</p>-->
+                        <!--<p class="blue poper">background</p><p class="green">transparent</p>-->
+                        <p class="black">}</p>
+                    </div>
+                    <div class="code">
+                        <p class="red">#pc_screen </p>
+                        <p class="black">{</p>
+                        <p class="blue poper">background-color</p><p class="blue">#230321</p>
+                        <p class="blue poper">width</p><p class="yellow">300<a class="green">px</a></p>
+                        <p class="blue poper">height</p><p class="yellow">169<a class="green">px</a></p>
+                        <p class="black">}</p>
+                    </div>
+                    <div class="code">
+                        <p class="red">#pc_holder1 </p>
+                        <p class="black">{</p>
+                        <p class="blue poper">width</p><p class="yellow">25<a class="green">px</a></p>
+                        <p class="blue poper">background-color</p><p class="blue">#0C0B23</p>
+                        <p class="blue poper">margin-left</p><p class="yellow">-12.5</p><p class="green">absolute</p>
+                        <!--<p class="blue poper">top</p><p class="yellow">20%</p>-->
+                        <!--<p class="blue poper">left</p><p class="yellow">40%</p>-->
+                        <p class="black">}</p>
+                    </div>
+                    <div class="code">
+                        <p class="red">#pc_holder2 </p>
+                        <p class="black">{</p>
+                        <p class="blue poper">position</p><p class="green">absolute</p>
+                        <p class="blue poper">background-color</p><p class="blue">#0C0B23</p>
+                        <p class="blue poper">margin-left</p><p class="yellow">-25</p><p class="green">absolute</p>
+                        <!--<p class="blue poper">top</p><p class="yellow">225<a class="green">px</a></p>-->
+                        <!--<p class="blue poper">left</p><p class="yellow">50%</p>-->
+                        <p class="black">}</p>
+                    </div>
+                </div>
+            </div>
+            <div id="pc_holder1"></div>
+            <div id="pc_holder2"></div>
+
+        </div>
+        <div id="cup_container">
+            <div>
+                <span class="o"></span>
+                <span class="o"></span>
+                <span class="o"></span>
+            </div>
+
+            <div id="cup">
+
+            </div>
+        </div>
+
+
+        <div id="desk">
+
+
+            <div id="desk_top">
+
+            </div>
+
+            <div id="desk_legLeft">
+
+            </div>
+            <div id="desk_legRight">
+                <span class="locker"></span>
+                <span class="locker"></span>
+            </div>
+
+        </div>
+
+        <div id="chairContainer">
+            <div class="chair_back"></div>
+            <div class="chair_holder"></div>
+            <div class="chair_leg"></div>
+        </div>
+    </div>
+</div>
+<script src="js/clock.js"></script>
+</body>
+</html>

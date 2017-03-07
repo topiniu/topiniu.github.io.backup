@@ -1,0 +1,6 @@
+#clockContainer{
+    transition: left 0.5s;
+    position: absolute;
+    left:20%;
+    top: 10%;
+}
