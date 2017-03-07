@@ -1,0 +1,11 @@
+.item3 .itemContainer{
+    width:100%;
+}
+.item3 .itemContainer .title{
+    color: #FFFFFF;
+    font-size: 40px;
+    position: absolute;
+    top:20px;
+    left:100px;
+}
+.item3 .itemContainer .
