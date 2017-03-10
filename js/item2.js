@@ -5,7 +5,8 @@
    $(".item2 .navBtnC .navBtn").click(function (e) {
 
        $(".year" + clz).css({
-           "opacity":"0.3"
+           "opacity":"0.3",
+           "transform":"scale(1)"
        });
 
        var marginLeft = $(this).data("item");
@@ -16,7 +17,8 @@
        var year = $(this).val();
        clz = year;
        $(".year" + clz).css({
-           "opacity":"1"
+           "opacity":"1",
+           "transform":"scale(1.4)"
        });
 
        // initFontSize(1);

@@ -1,0 +1,58 @@
+.item4 .contentContainer{
+    position: relative;
+}
+.item4 .contactBtn{
+    height:34.5px;
+}
+
+.item4 span,.item4 p{
+    /*display: inline-block;*/
+}
+.item4 #email,.item4 #email:before,.item4 #email:after{
+    width:0;
+    height:0;
+    border-style:solid;
+
+    border-radius: 5px;
+}
+.item4 .icon{
+
+    position: relative;
+    margin:0 10px 0 10px;
+    float: left;
+}
+.item4 .contactBtn{
+    position: relative;
+}
+.item4 .contactBtn p{
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    margin-top: -11.5px;
+}
+.item4 #email{
+    border-width:23.8px;
+    border-color: #030303 transparent transparent transparent;
+
+
+}
+
+.item4 #email:before,.item4 #email:after{
+
+    content: '';
+    border-width: 16.7px;
+    position: absolute;
+}
+.item4 #email:before{
+    border-color: transparent transparent #030303 #030303;
+    right: -5px;
+    top: -22px;
+
+}
+.item4 #email:after{
+    border-color: transparent #030303 #030303 transparent;
+    left: -5px;
+    top: -22px;
+}

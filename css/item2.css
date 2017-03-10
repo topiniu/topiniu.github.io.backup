@@ -1,3 +1,6 @@
+.item2 .yearContainer p{
+    color: #FFFFFF;
+}
 .item2 .itemContainer{
     width:2000px;
     left:40%;
@@ -12,13 +15,13 @@
 
     position: relative;
     float: left;
-    margin-right:100px;
+    margin-left:100px;
     opacity: 0.3;
 
     transition: all .5s;
 }
 .item2 .itemContainer .year2012{
-
+    transform: scale(1.4);
     opacity: 1;
 }
 .item2 .yearContainer div p{
@@ -27,7 +30,7 @@
 }
 .item2 .yearContainer .my_year p{
     font-size:65px;
-    color: #3c3c3c;
+    color: #FFFFFF;
     opacity: 0.5;
     font-weight:bold;
 }
@@ -40,6 +43,7 @@
 
 .item2 .itemContainer .yearContainer  .my_content p{
     font-size:22px;
+    -webkit-font-smoothing: antialiased;
 }
 .item2 .navBtnC{
     position: absolute;
@@ -56,14 +60,14 @@
     width:80px;
     height:40px;
     background-color: transparent;
-    color: #3c3c3c;
+    color: #FFFFFF;
     margin:0 20px 0 20px;
 
     border:2px solid #3c3c3c;
     transition: all .8s;
 }
 .item2 .navBtnC input[type="button"]:hover{
-    background-color: #3c3c3c;
+    background-color: #FFFFFF;
     color: #FFF;
     cursor: pointer;
 }
