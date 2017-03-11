@@ -80,6 +80,26 @@ function warpColor(row,col,cclassName){
 
 
 $(function(){
+
+    setTimeout(function () {
+        choseCS();
+        var time = parseInt(Math.random()*3.8 + 2.3,10);
+        // alert("time= "+ time);
+
+        setInterval(function(){
+            clearColoredDiv();
+            choseCS();
+
+
+            time = parseInt(Math.random()*3.8 + 2.3,10);
+            // alert("next time:  "+time);
+
+        },time*1000);
+    },1000);
+
+
+
+
     $('.welcome').animate({
         left:'0'
     },1000,function(){
@@ -87,15 +107,15 @@ $(function(){
             left:'-100%'
         },1000);
     });
-    choseCS();
+    // choseCS();
     $('#fullpage').fullpage({
 
         // verticalCentered:false,
         keyboardScrolling:true,
         // paddingTop:'10%',
         onLeave: function (index, nextIndex, direction) {
-            clearColoredDiv();
-            choseCS();
+            // clearColoredDiv();
+            // choseCS();
 
             if(index==4){
                 toggleContactBtn(0);
