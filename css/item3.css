@@ -15,8 +15,10 @@
     position: relative;
 
     border-radius: 10px;
-    margin: 0 10px 0 10px;
+    margin: 10px;
     float: left;
+
+
 
 
     background: url("/topiniu.github.io/img/project_img/Room.png") center no-repeat;
@@ -26,10 +28,10 @@
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    transition: all .3s;
+    transition: all .1s;
 
     transform-origin: 50% 50%;
-    transform: rotateY(0deg) rotateX(0deg);
+    transform: scale(0) rotateY(0deg) rotateX(0deg);
 
 
 }

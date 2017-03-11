@@ -51,3 +51,23 @@ $(function () {
         // });
     })
 });
+
+function showProject(flag){
+    if(flag==1) {
+        $(".item3 .project_preview").css({
+            "transform": "scale(1.1) rotateY(0deg) rotateX(0deg)",
+            "transition": " all .3s"
+        });
+
+        setTimeout(function () {
+            $(".item3 .project_preview").css({
+                "transform": "scale(1) rotateY(0deg) rotateX(0deg)"
+            });
+        }, 300)
+    }else{
+        $(".item3 .project_preview").css({
+            "transform": "scale(0) rotateY(0deg) rotateX(0deg)",
+            "transition": " all .1s"
+        });
+    }
+}

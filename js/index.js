@@ -101,6 +101,8 @@ $(function(){
                 toggleContactBtn(0);
             }else if(index==2){
                 showPanel(0);
+            }else if(index==3){
+                showProject(0);
             }
 
             if(nextIndex==2){
@@ -111,6 +113,8 @@ $(function(){
 
             if(index==4){
                 toggleContactBtn(1);
+            }else if(index==3){
+                showProject(1);
             }
         }
     });
