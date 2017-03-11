@@ -72,7 +72,7 @@
 
 
 .item4 .contactContainer .textContainer{
-    -webkit-font-smoothing: antialiased;
+    font-weight:lighter;
 }
 .item4 .contactContainer .textContainer p:first-child{
     color: #FFFFFF;

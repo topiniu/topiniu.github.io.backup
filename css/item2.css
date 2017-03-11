@@ -3,11 +3,12 @@
 }
 .item2 .itemContainer{
     width:2000px;
-    left:40%;
+    left:70%;
     /*bottom:10%;*/
     position: relative;
-
-    /*transition: all 2s;*/
+    transform: scale(0.7);
+    opacity: 0.3;
+    transition: all 1s;
 }
 .item2 .itemContainer .yearContainer{
     width:300px;
@@ -43,7 +44,7 @@
 
 .item2 .itemContainer .yearContainer  .my_content p{
     font-size:22px;
-    -webkit-font-smoothing: antialiased;
+    font-weight:lighter;
 }
 .item2 .navBtnC{
     position: absolute;

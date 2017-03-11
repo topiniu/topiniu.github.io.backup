@@ -1,5 +1,6 @@
 .item3 .itemContainer{
     width:50%;
+    height:46%;
 }
 .item3 .itemContainer .title{
     color: #FFFFFF;
@@ -14,17 +15,18 @@
     position: relative;
 
     border-radius: 10px;
+    margin: 0 10px 0 10px;
+    float: left;
 
-    background: url("/topiniu.github.io/img/Room.png") center no-repeat;
+
+    background: url("/topiniu.github.io/img/project_img/Room.png") center no-repeat;
     background-size: 100% 100%;
 
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-
-    margin: 0 10px 0 10px;
-    float: left;
+    transition: all .3s;
 
     transform-origin: 50% 50%;
     transform: rotateY(0deg) rotateX(0deg);

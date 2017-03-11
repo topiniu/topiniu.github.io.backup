@@ -27,6 +27,48 @@
        // initFontSize(0);
    });
 
+   function showPanel(flag){
+       // alert(0);
+       if(flag==1) {
+
+           $(".item2 .itemContainer").animate({textIndent: 0}, {
+               step: function (now, ax) {
+                   $(this).css({
+                       "left": "40.5%",
+                       "transform": "scale(1)",
+                       "opacity": "1"
+                   });
+               }
+           });
+
+       }else{
+           $(".item2 .itemContainer").css({
+               "left": "70%",
+               "transform": "scale(0.7)",
+               "opacity": "0.3"
+           });
+       }
+   }
+    function hidePanel(){
+        var i = $(".item2 .itemContainer");
+        i.animate({textIndent:0},{
+            step:function(now,ax){
+                $(this).css({
+                    "left":"80%",
+                    "transform":"scale(0.7)",
+                    "opacity":"0.6"
+                });
+            }
+        });
+
+        setTimeout(function(){
+            i.css({
+                "left":"40%",
+                "transform":"scale(1)",
+                "opacity":"1"
+            });
+        },200);
+    }
    // function initFontSize(flag){
    //     if(flag) {
    //         $('.' + clz + " .my_year p").css({

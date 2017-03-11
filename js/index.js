@@ -99,6 +99,12 @@ $(function(){
 
             if(index==4){
                 toggleContactBtn(0);
+            }else if(index==2){
+                showPanel(0);
+            }
+
+            if(nextIndex==2){
+                showPanel(1);
             }
         },
         afterLoad: function(anchorLink,index){

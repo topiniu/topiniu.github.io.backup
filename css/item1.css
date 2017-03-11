@@ -31,23 +31,25 @@
 
 }
 .itemRight{
-    padding:10% 0 0 10px;
+    padding:10px 0 0 10px;
 }
 .itemRight p{
     color: #FFF;
     font-size:25px;
+    font-weight: lighter;
     /*font-family: Arial;*/
 }
 .frontContainer .contentContainer .name{
     color: #fff;
     display: inline;
-    font-size:50px;
+    font-size:45px;
+    font-weight: lighter;
 }
 #myselfImg{
 
     display: block;
-    width: 200px;
-    height:200px;
+    width: 150px;
+    height:150px;
 
     margin:0 auto;
 

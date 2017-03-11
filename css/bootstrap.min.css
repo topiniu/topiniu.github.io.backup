@@ -281,7 +281,7 @@ td, th {
     font-style: normal;
     font-weight: 400;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
+    font-weight:lighter;
     -moz-osx-font-smoothing: grayscale
 }
 
