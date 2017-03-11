@@ -83,7 +83,7 @@ $(function(){
 
     setTimeout(function () {
         choseCS();
-        var time = parseInt(Math.random()*5.2 + 2.8,10);
+        var time = parseInt(Math.random()*8 + 4,10);
         // alert("time= "+ time);
 
         setInterval(function(){
@@ -91,11 +91,11 @@ $(function(){
             choseCS();
 
 
-            time = parseInt(Math.random()*5.2 + 2.8,10);
+            time = parseInt(Math.random()*8 + 4,10);
             // alert("next time:  "+time);
 
         },time*1000);
-    },1000);
+    },1800);
 
 
 
