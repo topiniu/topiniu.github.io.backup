@@ -54,20 +54,24 @@
     left:50%;
     margin-left:-325px;
 }
-.item2 .navBtnC input[type="button"]{
+.item2 .navBtnC a{
     font-size:25px;
     font-weight: bold;
     width:80px;
-    height:40px;
+    height:35px;
     background-color: transparent;
     color: #FFFFFF;
     margin:0 20px 0 20px;
 
-    border:2px solid #3c3c3c;
-    transition: all .8s;
+    border:2px solid #FFFFFF;
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+
+    transition: all .3s;
 }
-.item2 .navBtnC input[type="button"]:hover{
+.item2 .navBtnC a:hover{
     background-color: #FFFFFF;
-    color: #FFF;
+    border-color: #3c3c3c;
+    color: #3c3c3c;
     cursor: pointer;
 }

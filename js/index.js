@@ -93,9 +93,19 @@ $(function(){
         // verticalCentered:false,
         keyboardScrolling:true,
         // paddingTop:'10%',
-        onLeave: function () {
+        onLeave: function (index, nextIndex, direction) {
             clearColoredDiv();
             choseCS();
+
+            if(index==4){
+                toggleContactBtn(0);
+            }
+        },
+        afterLoad: function(anchorLink,index){
+
+            if(index==4){
+                toggleContactBtn(1);
+            }
         }
     });
 });

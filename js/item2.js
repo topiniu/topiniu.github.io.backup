@@ -14,7 +14,7 @@
            "margin-left":"-" + marginLeft + "px"
        },500);
 
-       var year = $(this).val();
+       var year = $(this).data("val");
        clz = year;
        $(".year" + clz).css({
            "opacity":"1",

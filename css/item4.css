@@ -22,37 +22,86 @@
     float: left;
 }
 .item4 .contactBtn{
-    position: relative;
-}
-.item4 .contactBtn p{
-    font-size: 20px;
-    margin: 0;
     position: absolute;
-    left: 70px;
-    top: 50%;
-    margin-top: -11.5px;
-}
-.item4 #email{
-    border-width:23.8px;
-    border-color: #030303 transparent transparent transparent;
+    width: 362px;
+    height: 76px;
 
+    right:0;
+    bottom: -80px;
 
+    transition: all .2s;
 }
 
-.item4 #email:before,.item4 #email:after{
 
-    content: '';
-    border-width: 16.7px;
-    position: absolute;
+
+.item4 .svg--source{
+    display: none;
 }
-.item4 #email:before{
-    border-color: transparent transparent #030303 #030303;
-    right: -5px;
-    top: -22px;
+.item4 .contactBtn .svg--icon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    fill:currentColor;
+}
+
+
+.item4 .contactBtn .share {
+    width: 60px;
+    height: 60px;
+    float: left;
+    /*margin: .5rem 1rem .5rem 0;*/
+    color: white;
+    margin:0 30px 0 30px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.item4 .contactBtn .share:hover{
+    color: black;
+}
+.item4 .contactBtn .email{
+    width:76px;
+    height:76px;
+}
+.item4 .contactBtn .github{
+    width: 46px;
+    height: 46px;
+    margin-top: 7px;
+}
+
+
+.item4 .contactContainer .textContainer{
+    -webkit-font-smoothing: antialiased;
+}
+.item4 .contactContainer .textContainer p:first-child{
+    color: #FFFFFF;
+    font-size:28px;
 
 }
-.item4 #email:after{
-    border-color: transparent #030303 #030303 transparent;
-    left: -5px;
-    top: -22px;
+.item4 .contactContainer .textContainer p:last-child{
+    color: #FFFFFF;
+    font-size:25px;
+    margin:100px 0 0 100px;
+
+    font-weight:bold;
+}
+.item4 .contactContainer .textContainer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin:15px 0 15px 150px;
+
+    font-size:22px;
+
+    transition: all .5s;
+}
+.item4 .contactContainer .textContainer .secondP_1:hover{
+    color: #0769ad;
+}
+.item4 .contactContainer .textContainer .secondP_2:hover{
+    color: rgb(27, 188, 155);
+}
+.item4 .contactContainer .textContainer .secondP_3:hover{
+    color: black;
 }
