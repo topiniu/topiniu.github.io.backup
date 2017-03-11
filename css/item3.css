@@ -11,13 +11,32 @@
 .item3 .itemContainer .contentContainer .project_preview{
     width:200px;
     height:180px;
+    position: relative;
+
+    border-radius: 10px;
+
+    background: url("/topiniu.github.io/img/Room.png") center no-repeat;
+    background-size: 100% 100%;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    margin: 0 10px 0 10px;
+    float: left;
+
+    transform-origin: 50% 50%;
+    transform: rotateY(0deg) rotateX(0deg);
+
+
 }
-.item3 .itemContainer .contentContainer .project_preview img{
-    width:200px;
-    height:180px;
-    position: absolute;
-    z-index:-1;
-}
+/*.item3 .itemContainer .contentContainer .project_preview img{*/
+    /*width:200px;*/
+    /*height:180px;*/
+    /*position: absolute;*/
+    /*z-index:-1;*/
+/*}*/
 .item3 .itemContainer .contentContainer .project_preview a{
     position: absolute;
     width:200px;
@@ -30,14 +49,23 @@
     cursor: pointer;
     text-decoration: none;
 
-    transition: all .5s
+    border-radius: 10px;
+
+    transition: background-color .5s
 }
 .item3 .itemContainer .contentContainer .project_preview a p{
-    position: relative;
+    position: absolute;
     top: 50%;
+    left:50%;
     /* margin-top: -17px; */
     font-size: 40px;
     font-weight:bold;
     margin: 0;
+    margin-left:-62.2px;
     margin-top: -22.5px;
+
+    transform: translateZ(30px);
+}
+.item3 .project_preview{
+
 }
