@@ -18,11 +18,11 @@
     margin: 10px;
     float: left;
 
+    border:1px solid #3c3c3c;
 
 
 
-    background: url("http://topiniu.github.io/img/project_img/Room.png") center no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% !important;
 
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -35,12 +35,6 @@
 
 
 }
-/*.item3 .itemContainer .contentContainer .project_preview img{*/
-    /*width:200px;*/
-    /*height:180px;*/
-    /*position: absolute;*/
-    /*z-index:-1;*/
-/*}*/
 .item3 .itemContainer .contentContainer .project_preview a{
     position: absolute;
     width:200px;
@@ -48,28 +42,38 @@
     z-index: 2;
     color: #FFFFFF;
     display: block;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.3);
     text-align: center;
     cursor: pointer;
     text-decoration: none;
 
     border-radius: 10px;
 
-    transition: background-color .5s
+    transition: all .5s;
 }
 .item3 .itemContainer .contentContainer .project_preview a p{
     position: absolute;
     top: 50%;
-    left:50%;
+    /* left: 50%; */
+    /* height: 100%; */
+    width: 100%;
     /* margin-top: -17px; */
     font-size: 40px;
-    font-weight:bold;
+    font-weight: bold;
     margin: 0;
-    margin-left:-62.2px;
-    margin-top: -22.5px;
-
-    transform: translateZ(30px);
+    /* margin-left: -62.2px; */
+    /* margin-top: -22.5px; */
+    overflow-wrap: break-word;
+    transform: translateZ(30px) translate(0,-50%);
 }
-.item3 .project_preview{
+.item3 .itemContainer .contentContainer .room{
+    background: url("http://topiniu.github.io/img/project_img/Room.png");
+}
+/*http://topiniu.github.io*/
+.item3 .itemContainer .contentContainer .pa{
+    background: url("http://topiniu.github.io/img/project_img/pa.png");
 
+}
+.item3 .itemContainer .contentContainer .pa a:hover{
+    color: #000;
 }

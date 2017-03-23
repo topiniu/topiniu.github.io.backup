@@ -4,11 +4,11 @@
 $(function () {
    $(".project_preview a").hover(function(){
        $(this).css({
-           "background-color":"rgba(255,255,255,0)"
+           "background-color":"rgba(0,0,0,0)"
        });
    },function(){
        $(this).css({
-           "background-color":"rgba(255,255,255,0.3)"
+           "background-color":"rgba(0,0,0,0.3)"
        });
    }) ;
 
