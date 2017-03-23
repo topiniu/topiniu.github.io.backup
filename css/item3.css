@@ -63,7 +63,7 @@
     margin: 0;
     /* margin-left: -62.2px; */
     /* margin-top: -22.5px; */
-    overflow-wrap: break-word;
+    word-wrap: break-word;
     transform: translateZ(30px) translate(0,-50%);
 }
 .item3 .itemContainer .contentContainer .room{
