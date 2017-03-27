@@ -8,7 +8,7 @@ function loadImg(){
     var box = $("#imgBox");
 
     // alert(img.attr("src"));
-    var url = "http://topiniu.com/img/img_low/testImg.png";
+    var url = "http://topiniu.com/img/testImg.png";
     img.attr("src",url);
     img.addClass("myImg");
     img.css("z-index","1");
