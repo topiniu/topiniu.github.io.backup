@@ -25,15 +25,6 @@ function choseCS(){
     for(var x in coloredDiv){
         coloredDiv[x].changeCo();
     }
-        // setInterval(function () {
-        //     // alert("bug");
-        //     changeColor(coloredDiv[index].ro, coloredDiv[index].co, coloredDiv[index].clzName);
-        //     // alert(coloredDiv.length + "    index: " + index);
-        //     index++;
-        //     if(index===coloredDiv.length){
-        //         clearInterval(isi);
-        //     }
-        // },300);
 }
 function changeColor(row,col,cclassName){
     // alert(row+ "  "+ col+"   "+cclassName);
@@ -42,71 +33,32 @@ function changeColor(row,col,cclassName){
     p.addClass(cclassName);
 }
 
-//还是用面向对象的思想好解决些
-function coloredItem(irow,icol,icclassName){
-    this.ro = irow;
-    this.co = icol;
-    this.clzName = icclassName;
-
-}
-coloredItem.prototype.changeCo = function(){
-    changeColor(this.ro,this.co,this.clzName);
-}
-coloredItem.prototype.clearCo = function(){
-
-    warpColor(this.ro,this.co,this.clzName);
-}
-function clearColoredDiv(){
-
-    for(var x in coloredDiv){
-        coloredDiv[x].clearCo();
-    }
-}
-function warpColor(row,col,cclassName){
-
-    var p = $(".row:nth-child(" + row + ")>.colorScreen:nth-child(" + col + ")");
-    p.removeClass(cclassName);
-
-    // for(x in coloredDiv){
-    //     var p = $(".row:nth-child(" + coloredDiv[x].ro + ")>.colorScreen:nth-child(" + coloredDiv[x].co + ")");
-    //     p.removeClass(coloredDiv[x].clzName);
-    // }
-}
-
-
-
-
-
-
-
 $(function(){
-
+    //设置循环更改背景颜色函数  随机时间为3-8s
     setTimeout(function () {
         choseCS();
-        var time = parseInt(Math.random()*8 + 4,10);
+        var time = parseInt(Math.random()*5 + 3,10);
         // alert("time= "+ time);
 
+        //延迟执行并更改下次随机时间
         setInterval(function(){
             clearColoredDiv();
             choseCS();
 
-
-            time = parseInt(Math.random()*8 + 4,10);
+            time = parseInt(Math.random()*5 + 3,10);
             // alert("next time:  "+time);
 
         },time*1000);
     },1800);
 
 
-
-
-    $('.welcome').animate({
-        left:'0'
-    },1000,function(){
-        $('.welcome').delay(1800).animate({
-            left:'-100%'
-        },1000);
-    });
+    // $('.welcome').animate({
+    //     left:'0'
+    // },1000,function(){
+    //     $('.welcome').delay(1800).animate({
+    //         left:'-100%'
+    //     },1000);
+    // });
     // choseCS();
     $('#fullpage').fullpage({
 

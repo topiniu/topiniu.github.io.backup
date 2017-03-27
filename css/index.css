@@ -4,7 +4,7 @@ body,html{
     margin:0;
     overflow: hidden;
 
-    font-family: Arial;
+    font-family: 华文细黑;
 }
 .container{
     width:100%;
@@ -35,7 +35,7 @@ body,html{
         padding-bottom:20%;
     }
 }
-@media (min-width:992px)  and (orientation: portrait) {
+@media (min-width:991px)  and (orientation: portrait) {
     .colorScreen{
         width:10%;
         padding-bottom:10%;
@@ -62,4 +62,32 @@ body,html{
 .welcome p{
     font-size:20px;
     margin:12px;
+}
+
+.frontContainer{
+    position: relative;
+    z-index: 9;
+    width:100%;
+    height:100%;
+
+    background: rgba(255,255,255,0.3);
+}
+.contentContainer{
+    width:100%;
+    height:100%;
+}
+.contentContainer .itemContainer{
+    margin:0 auto;
+    width: 423px;
+    overflow: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height:0;
 }

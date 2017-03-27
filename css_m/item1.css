@@ -1,0 +1,22 @@
+.item1{
+    position: relative;
+    width:100%;
+    height:100%;
+
+}
+.item1 .itemContainer{
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+
+.item1 .itemContainer div{
+    float: none;
+}
+.item1 .itemContainer .itemLeft{
+    position: absolute;
+    top:0;
+}
+.item1 .itemContainer .itemLeft img{
+
+}

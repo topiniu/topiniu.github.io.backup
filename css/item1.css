@@ -1,59 +1,66 @@
-
-.frontContainer{
+.item1{
     position: relative;
-    z-index: 9;
     width:100%;
     height:100%;
 
-    background: rgba(0,0,0,0.3);
+    background:transparent;
 }
-.contentContainer{
+.item1 .itemContainer{
+    width:750px;
+    height:500px;
+
+    background-color: white;
+    box-shadow: 4px 4px 20px 5px black;
+}
+
+.item1 .itemContainer #imgBox{
+    height:210px;
+}
+.item1 .itemContainer #imgBox img{
     width:100%;
-    height:100%;
-    /*text-align: center;*/
-
-    /*position: absolute;*/
-    /*top:40%;*/
-
+    height:210px;
 }
-.contentContainer .itemContainer{
-    margin:0 auto;
-    width: 423px;
-    overflow: hidden;
+#selfInfoBox{
+    /*padding:10px 30px;*/
+    height:290px;
 }
-.item1 .itemContainer div{
+#selfInfoBox p{
+    margin:0;
+}
+#selfInfoBox .contentBox{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-55%);
+    padding: 0 30px 0 30px;
+}
+
+#selfInfoBox .leftBox{
+    width: 30%;
     float: left;
+    border-right: 1px solid gray;
 }
-.itemLeft{
-    border-right: 2px solid white;
-    padding: 0 10px 0 0;
-    text-align: center;
 
+#shortBox .name p{
+    margin:0;
+    font-size:50px;
 }
-.itemRight{
-    padding:10px 0 0 10px;
+#selfInfoBox .leftBox .shortintro{
+    padding-left:10px;
+    margin-top:30px;
 }
-.itemRight p{
-    color: #FFF;
-    font-size:25px;
-    font-weight: lighter;
-    /*font-family: Arial;*/
+#selfInfoBox .shortintro p{
+    margin:10px 0 10px 0;
+    font-size:20px;
 }
-.frontContainer .contentContainer .name{
-    color: #fff;
-    display: inline;
-    font-size:45px;
-    font-weight: lighter;
-}
-#myselfImg{
 
-    display: block;
-    width: 150px;
-    height:150px;
+#selfInfoBox .rightBox{
+    position: relative;
+    width:65%;
+    float: right;
+    top:45px;
+}
 
-    margin:0 auto;
-
-    -webkit-border-radius:200px;
-    -moz-border-radius:200px;
-    border-radius:200px;
+#selfInfoBox .rightBox p{
+    text-indent: 2em;
+    line-height: 2em;
 }
