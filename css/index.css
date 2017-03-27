@@ -25,7 +25,7 @@ body,html{
     height:0;
 
 
-    background-color: transparent;
+    /*background-color: transparent;*/
     float: left;
     transition: background-color 2s;
 }

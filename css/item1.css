@@ -14,15 +14,23 @@
 }
 
 .item1 .itemContainer #imgBox{
-    height:210px;
+    height:205px;
+    position: relative;
+    overflow: hidden;
 }
-.item1 .itemContainer #imgBox img{
+.item1 .itemContainer #imgBox .myImg{
+    position: absolute;
     width:100%;
-    height:210px;
+    /*height:210px;*/
+    opacity: 1;
+    z-index: 9;
+
+
+    transition: all 1s;
 }
 #selfInfoBox{
     /*padding:10px 30px;*/
-    height:290px;
+    height:295px;
 }
 #selfInfoBox p{
     margin:0;
