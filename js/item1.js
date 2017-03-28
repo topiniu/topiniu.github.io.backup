@@ -16,11 +16,16 @@ function loadImg(){
     img.on("load",function () {
 
         console.log(img.height());
+
         $("#imgBox img:nth-child(1)").css("opacity","0");
+        setTimeout(function () {
+            // $("#imgBox img:nth-child(1)").remove();
+        },2000);
+
     });
 
-    box.append(img);
 
+    box.append(img);
     //
     // setInterval(function () {
     //     console.log($(img).height());

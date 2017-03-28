@@ -28,6 +28,7 @@
 
     transition: all 1s;
 }
+
 #selfInfoBox{
     /*padding:10px 30px;*/
     height:295px;
@@ -71,4 +72,80 @@
 #selfInfoBox .rightBox p{
     text-indent: 2em;
     line-height: 2em;
+}
+
+
+@media screen and (max-width: 767px) {
+    .item1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .item1 .itemContainer {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+
+        box-shadow: none;
+    }
+
+    .item1 .itemContainer #imgBox {
+        height: 26%;
+    }
+
+    .item1 .itemContainer #imgBox .myImg {
+        /* z-index: 1; */
+        /* width: 100%; */
+        /* height: 100%; */
+        position: absolute;
+        /* left: -50%; */
+        /* width: 200%; */
+        /* height: 200%; */
+        transform: scale(1.6);
+        transform-origin: top;
+        transition: all 1s;
+    }
+    #selfInfoBox{
+        height:74%;
+    }
+    #selfInfoBox .contentBox {
+        /*height: auto;*/
+        position: relative;
+        transform: none;
+        height:100%;
+        top: 0;
+    }
+
+    #selfInfoBox div {
+        float: none !important;
+    }
+
+    #selfInfoBox #shortBox {
+        border: 0;
+        width: 100%;
+
+    }
+
+    #selfInfoBox #shortBox .shortintro {
+        text-align: center;
+    }
+
+    #selfInfoBox .rightBox {
+        position: relative;
+        width: 100%;
+        float: right;
+        top: 45px;
+        /*bottom:10px;*/
+        border-left: 2px solid red;
+        padding-left: 0px;
+    }
+
+    #selfInfoBox .rightBox p {
+        text-indent: 2em;
+        line-height: 2em;
+        font-size: 0.5px;
+        margin-left: 18px;
+    }
 }

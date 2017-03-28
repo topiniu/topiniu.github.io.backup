@@ -18,5 +18,9 @@
     top:0;
 }
 .item1 .itemContainer .itemLeft img{
-
+    z-index: 1;
+    /* width: 100%; */
+    position: relative;
+    left: -50%;
+    width: 200%;
 }
