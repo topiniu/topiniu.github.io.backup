@@ -153,7 +153,8 @@
     #selfInfoBox .rightBox p {
         text-indent: 2em;
         line-height: 2em;
-        font-size: 1em;
+        font-size: 0.8em;
+	color:gray;
         margin-left: 18px;
     }
 }
