@@ -26,15 +26,15 @@ function loadImg(){
 
 
     box.append(img);
-    //
-    // setInterval(function () {
-    //     console.log($(img).height());
-    //    if($(img).height()>0){
-    //        console.log($(img).height());
-    //        box.append($(img));
-    //
-    //        $(box + "img:nth-child(1)").css("opacity","0");
-    //    }
-    // },200)
+
 }
 
+function loadP(){
+    var rightBox = $("#selfInfoBox .rightBox");
+
+    rightBox.slideDown(800,function () {
+        var p = rightBox.children("p");
+        p.css("opacity","1");
+    });
+
+}

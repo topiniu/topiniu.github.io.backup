@@ -67,15 +67,23 @@
     width:65%;
     float: right;
     top:45px;
+
+    overflow: hidden;
+    display: none;
+
 }
 
 #selfInfoBox .rightBox p{
     text-indent: 2em;
     line-height: 2em;
+
+    opacity: 0;
+
+    transition: all .6s;
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 415px) {
     .item1 {
         position: relative;
         width: 100%;
@@ -103,8 +111,8 @@
         /* left: -50%; */
         /* width: 200%; */
         /* height: 200%; */
-        transform: scale(1.6);
-        transform-origin: top;
+        top:50%;
+        transform: scale(2) translate(0,-25%);
         transition: all 1s;
     }
     #selfInfoBox{
@@ -145,7 +153,7 @@
     #selfInfoBox .rightBox p {
         text-indent: 2em;
         line-height: 2em;
-        font-size: 12px;
+        font-size: 1em;
         margin-left: 18px;
     }
 }
