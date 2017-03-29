@@ -1,14 +1,25 @@
 .item3 .itemContainer{
-    width:50%;
-    height:46%;
+    position: relative;
+    width:100%;
+    height:100%;
 }
 .item3 .itemContainer .title{
     color: #000000;
     font-size: 40px;
-    position: absolute;
-    top:20px;
-    left:100px;
+    position: relative;
+    top:10px;
+    left:10px;
 }
+.item3 .itemContainer .title h1{
+    margin:10px 0 10px 0;
+}
+.item3 .itemContainer .contentContainer{
+    height:auto;
+    width:auto;
+
+    margin:5%;
+}
+
 .item3 .itemContainer .contentContainer .project_preview{
     width:200px;
     height:180px;
@@ -76,4 +87,62 @@
 }
 .item3 .itemContainer .contentContainer .pa a:hover{
     color: #000;
+}
+
+
+@media screen and (max-width: 767px) {
+    .item3 .itemContainer .contentContainer{
+        margin:0;
+    }
+
+    .item3 .itemContainer .contentContainer .project_preview{
+        width:100%;
+        height:70px;
+        margin:10px 0 ;
+
+        background-repeat: no-repeat !important;
+        background-size: 20% 100% !important;
+        border:none;
+        border-radius: 0;
+
+        /*right:-100%;*/
+    }
+
+    .item3 .itemContainer .contentContainer .project_preview a{
+        width:80%;
+        height:100%;
+
+
+        right:0;
+
+        border:none;
+        border-radius: 0;
+
+        transition: all .5s;
+
+    }
+
+    .item3 .itemContainer .contentContainer .project_preview a p{
+        font-size:2em;
+    }
+
+    .item3 .itemContainer .contentContainer .project_preview a[name='room']:hover{
+        background-color: #91493A;
+        color: #FFFFFF;
+    }
+    .item3 .itemContainer .contentContainer .project_preview a p[name='room']{
+        color: #91493A;
+    }
+    .item3 .itemContainer .contentContainer .project_preview a[name='questionnaire']:hover{
+        background-color: cadetblue;
+        color: #FFFFFF;
+    }
+    .item3 .itemContainer .contentContainer .project_preview a p[name='questionnaire']{
+        color: cadetblue;
+    }
+}
+
+
+@media screen and (orientation: landscape){
+
 }

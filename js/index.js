@@ -71,24 +71,26 @@ $(function(){
             // clearColoredDiv();
             // choseCS();
 
-            if(index==4){
+            if(index==4){//item 4 leave
                 toggleContactBtn(0);
-            }else if(index==2){
+            }else if(index==2){//item 2 leave
                 showPanel(0);
-            }else if(index==3){
+            }else if(index==3){//item 3 leave
+                // mobileShowProLink();
                 showProject(0);
             }
 
-            if(nextIndex==2){
+            if(nextIndex==2){//will into item 2
                 showPanel(1);
             }
         },
         afterLoad: function(anchorLink,index){
 
-            if(index==4){
+            if(index==4){//item 4 loaded
                 toggleContactBtn(1);
-            }else if(index==3){
+            }else if(index==3){//item 3 loaded
                 showProject(1);
+                // mobileShowProLink();
             }
         }
     });

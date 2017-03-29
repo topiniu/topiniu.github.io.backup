@@ -83,7 +83,7 @@
 }
 
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 767px) {
     .item1 {
         position: relative;
         width: 100%;
@@ -156,5 +156,32 @@
         font-size: 0.8em;
 	color:gray;
         margin-left: 18px;
+    }
+}
+
+
+@media screen and (max-width: 767px) and (orientation: landscape){
+    #selfInfoBox  #shortBox{
+        width: 34%;
+        /* border-right: 1px solid gray; */
+        padding: 0 30px 0px 0;
+        top: 50%;
+        position: relative;
+        transform: translate(0,-50%);
+        float: left !important;
+    }
+
+    #selfInfoBox #shortBox .shortintro{
+        text-align: left;
+        margin-top:20px;
+    }
+
+    #selfInfoBox .rightBox{
+        /*display: block;*/
+        width: 59%;
+        float: right !important;
+        /* border: none; */
+        top: 50%;
+        transform: translate(0,-50%);
     }
 }
