@@ -91,6 +91,9 @@
 
 
 @media screen and (max-width: 767px) {
+    .item3 .itemContainer .title h1{
+        font-size:1.5em;
+    }
     .item3 .itemContainer .contentContainer{
         margin:0;
     }
@@ -104,6 +107,7 @@
         background-size: 20% 100% !important;
         border:none;
         border-radius: 0;
+        border:1px solid black;
 
         /*right:-100%;*/
     }
@@ -118,7 +122,6 @@
         border:none;
         border-radius: 0;
         background-color: black !important;
-        border:1px solid black;
 
 
         transition: all .5s;
@@ -126,7 +129,7 @@
     }
 
     .item3 .itemContainer .contentContainer .project_preview a p{
-        font-size:2em;
+        font-size:1.8em;
     }
 
     .item3 .itemContainer .contentContainer .project_preview a:hover{

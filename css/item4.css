@@ -38,21 +38,35 @@
     display: none;
 }
 .item4 .contactBtn .svg--icon {
-    width: 100%;
-    height: 100%;
+    width: 3em;
+    height:100%;
     display: block;
     margin: 0 auto;
     fill:currentColor;
 }
-
+.item4 .contactBtn a:nth-child(1){
+    left:8%;
+    margin-top: 4%;
+}
+.item4 .contactBtn a:nth-child(2){
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
+}
+.item4 .contactBtn a:nth-child(3){
+    margin-top: 3%;
+    right: 8%;
+    height: 46px;
+}
 
 .item4 .contactBtn .share {
-    width: 60px;
+    /*width: 60px;*/
     height: 60px;
-    float: left;
+    /*float: left;*/
     /*margin: .5rem 1rem .5rem 0;*/
     color: black;
-    margin:0 30px 0 30px;
+    position: absolute;
+    /*margin:0 30px 0 30px;*/
     -webkit-transition: all .3s;
     transition: all .3s;
 }
@@ -60,28 +74,27 @@
 .item4 .contactBtn .share:hover{
     color: #cc0000;
 }
-.item4 .contactBtn .email{
-    width:76px;
-    height:76px;
-}
+/*.item4 .contactBtn .email{*/
+    /*width:76px;*/
+    /*height:76px;*/
+/*}*/
 .item4 .contactBtn .github{
-    width: 46px;
-    height: 46px;
-    margin-top: 7px;
+    /*width: 46px;*/
+    /*margin-top: 7px;*/
 }
 
 
 .item4 .contactContainer .textContainer{
     /*font-weight:lighter;*/
 }
-.item4 .contactContainer .textContainer p:first-child{
+.item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
     color: #000000;
-    font-size:28px;
-
+    font-size:2em;
+    font-weight: bold;
 }
 .item4 .contactContainer .textContainer p:last-child{
     color: #000000;
-    font-size:25px;
+    font-size:1.3em;
     margin:100px 0 0 100px;
 
     /*font-weight:lighter;*/
@@ -90,9 +103,13 @@
     color: #000000;
     text-decoration: none;
     display: inline-block;
-    margin:15px 0 15px 150px;
+    position: relative;
+    left:30%;
+    display: block;
+    margin-top:5%;
+    /*margin:15px 0 15px 150px;*/
 
-    font-size:22px;
+    font-size:1.2em;
 
     transition: all .5s;
 }
@@ -104,4 +121,58 @@
 }
 .item4 .contactContainer .textContainer .secondP_3:hover{
     color: #173bff;
+}
+
+@media screen and (max-width: 767px) {
+    .item4 .itemContainer{
+        width:100%;
+        height:100%;
+    }
+    .item4 .itemContainer .contactContainer,.item3 .itemContainer .contactContainer .textContainer{
+        position: relative;
+        width:100%;
+        height:100%;
+    }
+    .item4 .contactContainer .textContainer{
+        position: relative;
+        top:50%;
+        transform: translate(0,-72%);
+    }
+    .item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
+        padding-left:30px;
+        margin:0;
+        margin-bottom:20px;
+    }
+    .item4 .itemContainer .textContainer div:nth-child(2){
+        margin-top:20%;
+        padding:10px 30px;
+    }
+    .item4 .itemContainer .textContainer div:nth-child(2) p{
+        margin:0;
+    }
+    /*.item4 .contactContainer .textContainer a {*/
+        /*margin: 5% 0 2% 30%;*/
+    /*}*/
+
+
+    .item4 .contactBtn{
+        width:100%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape){
+    .item4 .itemContainer .textContainer{
+
+    }
+
+    .item4 .itemContainer .textContainer div:nth-child(1){
+        float: left;
+    }
+    .item4 .itemContainer .textContainer div:nth-child(2){
+        float: right;
+        margin-top: 10%;
+        border-left:2px solid red;
+    }
 }
