@@ -1,77 +1,11 @@
-.item2 .yearContainer p{
-    color: #FFFFFF;
-}
-.item2 .itemContainer{
-    width:2000px;
-    left:70%;
-    /*bottom:10%;*/
-    position: relative;
-    transform: scale(0.7);
-    opacity: 0.3;
-    transition: all 1s;
-}
-.item2 .itemContainer .yearContainer{
-    width:300px;
-    height:500px;
-
-    position: relative;
-    float: left;
-    margin-left:100px;
-    opacity: 0.3;
-
-    transition: all .5s;
-}
-.item2 .itemContainer .year2012{
-    transform: scale(1.4);
-    opacity: 1;
-}
-.item2 .yearContainer div p{
-    margin:0;
-    transition: all .8s;
-}
-.item2 .yearContainer .my_year p{
-    font-size:65px;
-    color: #FFFFFF;
-    opacity: 0.5;
-    font-weight:bold;
-}
-
-.item2 .yearContainer .my_title p{
-    font-size:30px;
-    margin-bottom:40px;
-    font-weight: bold;
-}
-
-.item2 .itemContainer .yearContainer  .my_content p{
-    font-size:22px;
-    font-weight:lighter;
-}
-.item2 .navBtnC{
-    position: absolute;
-
-    bottom: 50px;
+.item2{
     width:100%;
-    height:50px;
-    text-align: center;
-}
-.item2 .navBtnC a{
-    font-size:25px;
-    font-weight: lighter;
-    width:80px;
-    height:35px;
-    background-color: transparent;
-    color: #FFFFFF;
-    margin:0 20px 0 20px;
+    height:100%;
 
-    border:2px solid #FFFFFF;
-    border-radius: 10px;
-    padding:10px 10px 10px 10px;
 
-    transition: all .3s;
 }
-.item2 .navBtnC a:hover{
-    background-color: #FFFFFF;
-    border-color: #3c3c3c;
-    color: #3c3c3c;
-    cursor: pointer;
+.item2 .imgContainer{
+    width:100%;
+    height:100%;
+
 }

@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540644df-7a2c-4ba1-be5a-59c609ac79cd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scenery/scenery_low/scenery_9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/item3.css" afterPath="$PROJECT_DIR$/css/item3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/item2.css" afterPath="$PROJECT_DIR$/css/item2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,28 +57,41 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="269" column="24" lean-forward="false" selection-start-line="269" selection-start-column="24" selection-end-line="269" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item3.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/item3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="132" column="45" lean-forward="false" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="257">
+                  <caret line="303" column="40" lean-forward="false" selection-start-line="303" selection-start-column="40" selection-end-line="303" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="item2.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/item2.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,18 +129,18 @@
         <option value="$PROJECT_DIR$/css/icon.css" />
         <option value="$PROJECT_DIR$/js/item4.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/item2.css" />
         <option value="$PROJECT_DIR$/js/item2.js" />
         <option value="$PROJECT_DIR$/js/Timer.js" />
         <option value="$PROJECT_DIR$/css/item4.css" />
         <option value="$PROJECT_DIR$/js/item3.js" />
         <option value="$PROJECT_DIR$/css_m/item1.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/item1.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/item1.css" />
         <option value="$PROJECT_DIR$/css/item3.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/item2.css" />
       </list>
     </option>
   </component>
@@ -122,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,6 +208,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scenery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scenery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scenery_low" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topiniu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css_m" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -179,6 +282,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -194,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/scenery" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/project_img" />
     </key>
@@ -324,11 +429,13 @@
       <workItem from="1490720556778" duration="4000" />
       <workItem from="1490721305439" duration="1156000" />
       <workItem from="1490784016499" duration="692000" />
+      <workItem from="1491040892545" duration="22000" />
+      <workItem from="1491042246657" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46280000" />
+    <option name="totallyTimeSpent" value="48323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -366,7 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/lazyLoadImg.js" />
     <entry file="file://$PROJECT_DIR$/css/item4.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -656,18 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/item2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/item1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,12 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <marker date="1490780168000" expanded="true" signature="1932:2020" ph="{...}" />
-            <marker date="1490780168000" expanded="true" signature="2019:2020" ph="{...}" />
-            <marker date="1490780168000" expanded="true" signature="2626:2642" ph="{...}" />
-            <marker date="1490780168000" expanded="true" signature="2626:2652" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,22 +787,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="269" column="24" lean-forward="false" selection-start-line="269" selection-start-column="24" selection-end-line="269" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/item3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="132" column="45" lean-forward="false" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
+        <state relative-caret-position="723">
+          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/scenery/scenery_low/scenery_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="303" column="40" lean-forward="false" selection-start-line="303" selection-start-column="40" selection-end-line="303" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/item2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
