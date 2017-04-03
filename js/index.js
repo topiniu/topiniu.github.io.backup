@@ -63,16 +63,17 @@ $(function(){
     // });
     // choseCS();
     var item2NavBtnFlkag = false;//是移动端吗
+    if($(".item2 .navBtnC").css("opacity")==="0"){
+        item2NavBtnFlkag = true;//是移动端
+        showPanel_mobile();
+    }
+
     $('#fullpage').fullpage({
 
         // verticalCentered:false,
         keyboardScrolling:true,
         // paddingTop:'10%',
         onLeave: function (index, nextIndex, direction) {
-
-            if($(".item2 .navBtnC").css("opacity")==="0"){
-                item2NavBtnFlkag = true;//是移动端
-            }
 
             if(index==4){//item 4 leave
                 toggleContactBtn(0);
@@ -90,7 +91,7 @@ $(function(){
 
             if(nextIndex==2){//will into item 2
                 if(item2NavBtnFlkag){
-                    showPanel_mobile();
+                    // showPanel_mobile();
                 }else{
                     showPanel_pc(1);
                 }
