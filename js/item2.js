@@ -71,6 +71,7 @@
     var touchFlag = 0;
     function showPanel_mobile(){
 
+        touchFlag = 0;
         var leftValue = [0,-320,-640,-960,-1290];
 
         var itemContainer = $(".item2 .itemContainer");
