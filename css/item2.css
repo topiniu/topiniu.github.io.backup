@@ -89,7 +89,7 @@
         opacity: 1;
     }
     .item2 .itemContainer{
-        left:150%;
+        left:0;
         transform: scale(1);
         opacity: 1;
     }
