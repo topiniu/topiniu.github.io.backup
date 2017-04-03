@@ -1,93 +1,120 @@
-.item2{
+.item2 .yearContainer p{
+    color: #000000;
+}
+.item2 .itemContainer{
+    width:2500px;
+    left:70%;
+    /*bottom:10%;*/
+    position: relative;
+    transform: scale(0.7);
+    opacity: 0.3;
+    transition: all 1s;
+}
+.item2 .itemContainer .yearContainer{
+    width:310px;
+    height:500px;
+
+    position: relative;
+    float: left;
+    margin-left:100px;
+    opacity: 0.3;
+
+    transition: all .5s;
+}
+.item2 .itemContainer .scaleH{
+    transform: scale(1.4);
+    opacity: 1;
+}
+.item2 .itemContainer .scaleL{
+    transform: scale(1);
+    opacity: 0.3;
+}
+.item2 .yearContainer div p{
+    margin:0;
+    transition: all .8s;
+}
+.item2 .yearContainer .my_year p{
+    font-size:65px;
+    color: #000000;
+    opacity: 0.5;
+    font-weight:bold;
+}
+
+.item2 .yearContainer .my_title p{
+    font-size:30px;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+
+.item2 .itemContainer .yearContainer  .my_content p{
+    font-size:22px;
+    font-weight:lighter;
+}
+.item2 .navBtnC{
+    position: absolute;
+
+    bottom: 50px;
     width:100%;
-    height:100%;
+    height:50px;
+    text-align: center;
+
+    transition: all .5s;
+}
+.item2 .navBtnC a{
+    font-size:25px;
+    font-weight: lighter;
+    width:80px;
+    height:35px;
+    background-color: transparent;
+    color: #000000;
+    margin:0 20px 0 20px;
+
+    border:2px solid #000000;
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+
+    transition: all .3s;
+}
+.item2 .navBtnC a:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 
-}
-.item2 .imgContainer{
-    width: 200%;
-    /* max-width: 80%; */
-    height: auto;
-    position: relative;
-    /* text-align: center; */
-    margin: 0 auto;
-}
+@media screen and (max-width: 767px){
 
-.item2 .imgContainer .img_box{
-    display: inline-block;
-    position: relative;
+    .item2 .itemContainer .yearContainer{
+        margin-left:20px;
+        opacity: 1;
+    }
+    .item2 .itemContainer{
+        left:150%;
+        transform: scale(1);
+        opacity: 1;
+    }
+    .item2 .itemContainer .scaleH{
+        transform: scale(1);
+        opacity: 1;
+    }
+    .item2 .yearContainer .my_year p{
+        font-size:4em;
+        color: #000000;
+        opacity: 0.5;
+        font-weight:bold;
+    }
 
-    margin-bottom:5em;
-}
-.item2 .imgContainer .img_box:nth-child(1){
-    margin-right:45px;
-}
-.item2 .imgContainer .img_box:nth-child(2){
-    margin-right:55px;
-}
-.item2 .imgContainer .img_box:nth-child(3){
-    margin-right:30px;
-}
-.item2 .imgContainer .img_box:nth-child(4){
-    margin-right:60px;
-}
-.item2 .imgContainer .img_box:nth-child(5){
-    margin-right:57px;
-}
-.item2 .imgContainer .img_box:nth-child(6){
-    margin-right:75px;
-}
-.item2 .imgContainer .img_box:nth-child(7){
-    margin-right:10px;
-}
-.item2 .imgContainer .img_box:nth-child(8){
-    margin-right:50px;
-}
-.item2 .imgContainer .img_box:nth-child(9){
-    margin-right:62px;
-}
-.item2 .imgContainer .img_box:nth-child(10){
-    margin-right:66px;
-}
-.item2 .imgContainer .img_box:nth-child(11){
-    margin-right:29px;
-}
-.item2 .imgContainer .img_box:nth-child(12){
-    margin-right:76px;
-}
-.item2 .imgContainer .img_box:nth-child(13){
-    margin-right:46px;
-}
-.item2 .imgContainer .img_box:nth-child(14){
-    margin-right:54px;
-}
-.item2 .imgContainer .img_box:nth-child(15){
-    margin-right:24px;
-}
-.item2 .imgContainer .img_box:nth-child(16){
-    margin-right:57px;
-}
-.item2 .imgContainer .img_box:nth-child(17){
-    margin-right:22px;
-}
-.item2 .imgContainer .img_box:nth-child(18){
-    margin-right:11x;
-}
-.item2 .imgContainer .img_box img{
-    z-index: 1;
-    position: relative;
-    width:100%;
-}
- .imgContainer .imgBtn{
-     display: block;
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     z-index: 9;
-     cursor: pointer;
+    .item2 .yearContainer .my_title p{
+        font-size:3em;
+        margin-bottom:40px;
+        font-weight: bold;
+    }
 
-     transition: all .5s;
- }
-.imgContainer .imgBtn:hover{
-    background-color: rgba(255,255,255,0.3);
+    .item2 .itemContainer .yearContainer  .my_content p{
+        font-size:1.3em;
+        font-weight:lighter;
+    }
+    .item2 .navBtnC{
+        opacity:0;
+    }
 }

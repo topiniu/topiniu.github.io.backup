@@ -62,26 +62,38 @@ $(function(){
     //     },1000);
     // });
     // choseCS();
+    var item2NavBtnFlkag = false;//是移动端吗
     $('#fullpage').fullpage({
 
         // verticalCentered:false,
         keyboardScrolling:true,
         // paddingTop:'10%',
         onLeave: function (index, nextIndex, direction) {
-            // clearColoredDiv();
-            // choseCS();
+
+            if($(".item2 .navBtnC").css("opacity")==="0"){
+                item2NavBtnFlkag = true;//是移动端
+            }
 
             if(index==4){//item 4 leave
                 toggleContactBtn(0);
             }else if(index==2){//item 2 leave
-                showPanel(0);
+                //移动端和pc端调用不同的逻辑
+                if(item2NavBtnFlkag){
+
+                }else{
+                    hidePanel_pc(0);
+                }
             }else if(index==3){//item 3 leave
                 // mobileShowProLink();
                 showProject(0);
             }
 
             if(nextIndex==2){//will into item 2
-                showPanel(1);
+                if(item2NavBtnFlkag){
+                    showPanel_mobile();
+                }else{
+                    showPanel_pc(1);
+                }
             }
         },
         afterLoad: function(anchorLink,index){
