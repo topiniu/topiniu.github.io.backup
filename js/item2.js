@@ -95,13 +95,15 @@
             //大于0右滑，left减
             if(touchEndX-touchStartX<0){
                 //left
-                if((touchFlag++)<4){
+                if((touchFlag)<4){
+                    touchFlag++;
                     itemContainer.css("left",leftValue[touchFlag]);
 
                     console.log(touchFlag);
                 }
             }else if(touchEndX-touchStartX>0){
-                if((touchFlag--)>0){
+                if((touchFlag)>0){
+                    touchFlag--;
                     itemContainer.css("left",leftValue[touchFlag]);
 
                     console.log(touchFlag);

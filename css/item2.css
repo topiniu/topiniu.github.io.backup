@@ -87,6 +87,7 @@
     .item2 .itemContainer .yearContainer{
         margin-left:20px;
         opacity: 1;
+        height:auto;
     }
     .item2 .itemContainer{
         left:0;
@@ -99,22 +100,30 @@
     }
     .item2 .yearContainer .my_year p{
         font-size:4em;
-        color: #000000;
-        opacity: 0.5;
-        font-weight:bold;
     }
 
     .item2 .yearContainer .my_title p{
         font-size:3em;
-        margin-bottom:40px;
-        font-weight: bold;
     }
 
     .item2 .itemContainer .yearContainer  .my_content p{
         font-size:1.3em;
-        font-weight:lighter;
     }
     .item2 .navBtnC{
         opacity:0;
+    }
+}
+@media screen and (max-width: 767px) and (orientation: landscape){
+
+    .item2 .yearContainer .my_year p{
+        font-size:3em;
+    }
+
+    .item2 .yearContainer .my_title p{
+        font-size:2.3em;
+    }
+
+    .item2 .itemContainer .yearContainer  .my_content p{
+        font-size:1em;
     }
 }
