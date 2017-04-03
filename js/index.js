@@ -53,15 +53,6 @@ $(function(){
         },time*1000);
     },1800);
 
-
-    // $('.welcome').animate({
-    //     left:'0'
-    // },1000,function(){
-    //     $('.welcome').delay(1800).animate({
-    //         left:'-100%'
-    //     },1000);
-    // });
-    // choseCS();
     var item2NavBtnFlkag = false;//是移动端吗
     if($(".item2 .navBtnC").css("opacity")==="0"){
         item2NavBtnFlkag = true;//是移动端

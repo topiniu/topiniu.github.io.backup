@@ -100,14 +100,17 @@
     }
     .item2 .yearContainer .my_year p{
         font-size:4em;
+        color: #FFFFFF;
     }
 
     .item2 .yearContainer .my_title p{
         font-size:3em;
+        color: #FFFFFF;
     }
 
     .item2 .itemContainer .yearContainer  .my_content p{
         font-size:1.3em;
+        color: #FFFFFF;
     }
     .item2 .navBtnC{
         opacity:0;
@@ -117,13 +120,16 @@
 
     .item2 .yearContainer .my_year p{
         font-size:3em;
+        color: #FFFFFF;
     }
 
     .item2 .yearContainer .my_title p{
         font-size:2.3em;
+        color: #FFFFFF;
     }
 
     .item2 .itemContainer .yearContainer  .my_content p{
         font-size:1em;
+        color: #FFFFFF;
     }
 }

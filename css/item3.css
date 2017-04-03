@@ -93,6 +93,7 @@
 @media screen and (max-width: 767px) {
     .item3 .itemContainer .title h1{
         font-size:1.5em;
+        color: #FFFFFF;
     }
     .item3 .itemContainer .contentContainer{
         margin:0;
@@ -120,8 +121,9 @@
         right:0;
 
         border:none;
+        border-left:1px solid black;
         border-radius: 0;
-        background-color: black !important;
+        background-color: rgba(0,0,0,0.3) !important;
 
 
         transition: all .5s;
