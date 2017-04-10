@@ -88,8 +88,8 @@
 .item3 .itemContainer .contentContainer .pb{
     background: url("http://topiniu.com/img/project_img/PB.png");
 }
-.hoverBlack:hover{
-    color: #000;
+.hoverBlack a:hover{
+    color: #000 !important;
 }
 
 
@@ -142,9 +142,4 @@
         background-color: #FFFFFF !important;
         color: black;
     }
-}
-
-
-@media screen and (orientation: landscape){
-
 }
