@@ -85,6 +85,9 @@
     background: url("http://topiniu.com/img/project_img/PA.png");
 
 }
+.item3 .itemContainer .contentContainer .pb{
+    background: url("http://topiniu.com/img/project_img/PB.png");
+}
 .item3 .itemContainer .contentContainer .pa a:hover{
     color: #000;
 }
