@@ -1,0 +1,141 @@
+.item3{
+	.itemContainer{
+		position: relative;
+		width:100%;
+		height:100%;
+		background-color: white;
+
+		.title{
+			text-align: center;
+			h1{
+				font-weight:100;
+				font-size:23px;
+				color: gray;
+
+				display:inline-block;
+
+				&:before{
+					position: relative;
+					content: ' ';
+					display: block;
+					width: 30px;
+					height: 1px;
+					background: gray;
+					left: -35px;
+					top: 17px;
+				}
+				&:after{
+					position: relative;
+					content: ' ';
+					display: block;
+					width: 30px;
+					height: 1px;
+					background: gray;
+					float: ri;
+					left: 101px;
+					top: -17px;
+				}
+			}
+		}
+
+		.contentContainer{
+			padding:100px 100px;
+			.project_preview{
+				width: 270px;
+				height: 400px;
+				display: inline-block;
+				position: relative;
+				box-shadow: 3px 3px 16px 2px;
+				margin: 20px 30px;
+				cursor: pointer;
+
+				.cover{
+					position: absolute;
+					width: 100%;
+					z-index: 3;
+					height: 100%;
+					display: inline-block;
+					text-align: center;
+					background-color: rgba(255, 255, 255, 0.8);
+
+					p{
+						color: #0c0c0c;
+						position: relative;
+						top:50%;
+						display:inline-block;
+						margin:0;
+						transform: translate(0,-50%);
+
+
+						&:before{
+							position: relative;
+							content: ' ';
+							display: block;
+							width: 30px;
+							height: 1px;
+							background: #0c0c0c;
+							left: -35px;
+							top: 12px;
+						}
+						&:after{
+							position: relative;
+							content: ' ';
+							display: block;
+							width: 30px;
+							height: 1px;
+							background: #0c0c0c;
+							left: 120px;
+							top: -12px;
+						}
+					}
+				}
+
+				img{
+					position: absolute;
+					width:100%;
+					z-index:1;
+				}
+				.introBox{
+					position: absolute;
+					z-index:2;
+					width:100%;
+					height:270px;
+					background-color: white;
+					bottom:0;
+
+					span{
+						position: absolute;
+						left: 5px;
+						line-height: 1;
+						width: 257px;
+						overflow-wrap: break-word;
+						transform: translate(0,-50%);
+					}
+
+					p{
+						&:nth-child(1){
+							color: #0C0C0C;
+							font-size: 46px;
+							font-weight: bolder;
+						}
+
+						&:nth-child(2){
+							color: #0c0c0c;
+							margin: 0;
+							font-size: 16px;
+							/* padding: 0 20px; */
+							padding-left: 20px;
+							/* margin-top: 30px; */
+							padding-right: 10px;
+							text-indent: 32px;
+							position: relative;
+							top: 55%;
+							transform: translate(0,-52%);
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

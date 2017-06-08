@@ -44,44 +44,6 @@
   position: relative;
   box-shadow: 3px 3px 16px 2px;
   margin: 20px 30px;
-  cursor: pointer;
-}
-.item3 .itemContainer .contentContainer .project_preview .cover {
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-.item3 .itemContainer .contentContainer .project_preview .cover p {
-  color: #0c0c0c;
-  position: relative;
-  top: 50%;
-  display: inline-block;
-  margin: 0;
-  transform: translate(0, -50%);
-}
-.item3 .itemContainer .contentContainer .project_preview .cover p:before {
-  position: relative;
-  content: ' ';
-  display: block;
-  width: 30px;
-  height: 1px;
-  background: #0c0c0c;
-  left: -35px;
-  top: 12px;
-}
-.item3 .itemContainer .contentContainer .project_preview .cover p:after {
-  position: relative;
-  content: ' ';
-  display: block;
-  width: 30px;
-  height: 1px;
-  background: #0c0c0c;
-  left: 120px;
-  top: -12px;
 }
 .item3 .itemContainer .contentContainer .project_preview img {
   position: absolute;

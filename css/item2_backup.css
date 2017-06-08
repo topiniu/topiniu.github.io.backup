@@ -1,0 +1,135 @@
+.item2 .yearContainer p{
+    color: #000000;
+}
+.item2 .itemContainer{
+    width:2500px;
+    left:70%;
+    /*bottom:10%;*/
+    position: relative;
+    transform: scale(0.7);
+    opacity: 0.3;
+    transition: all 1s;
+}
+.item2 .itemContainer .yearContainer{
+    width:310px;
+    height:500px;
+
+    position: relative;
+    float: left;
+    margin-left:100px;
+    opacity: 0.3;
+
+    transition: all .5s;
+}
+.item2 .itemContainer .scaleH{
+    transform: scale(1.4);
+    opacity: 1;
+}
+.item2 .itemContainer .scaleL{
+    transform: scale(1);
+    opacity: 0.3;
+}
+.item2 .yearContainer div p{
+    margin:0;
+    transition: all .8s;
+}
+.item2 .yearContainer .my_year p{
+    font-size:65px;
+    color: #000000;
+    opacity: 0.5;
+    font-weight:bold;
+}
+
+.item2 .yearContainer .my_title p{
+    font-size:30px;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+
+.item2 .itemContainer .yearContainer  .my_content p{
+    font-size:22px;
+    font-weight:lighter;
+}
+.item2 .navBtnC{
+    position: absolute;
+
+    bottom: 50px;
+    width:100%;
+    height:50px;
+    text-align: center;
+
+    transition: all .5s;
+}
+.item2 .navBtnC a{
+    font-size:25px;
+    font-weight: lighter;
+    width:80px;
+    height:35px;
+    background-color: transparent;
+    color: #000000;
+    margin:0 20px 0 20px;
+
+    border:2px solid #000000;
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+
+    transition: all .3s;
+}
+.item2 .navBtnC a:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px){
+
+    .item2 .itemContainer .yearContainer{
+        margin-left:20px;
+        opacity: 1;
+        height:auto;
+    }
+    .item2 .itemContainer{
+        left:0;
+        transform: scale(1);
+        opacity: 1;
+    }
+    .item2 .itemContainer .scaleH{
+        transform: scale(1);
+        opacity: 1;
+    }
+    .item2 .yearContainer .my_year p{
+        font-size:4em;
+        color: #FFFFFF;
+    }
+
+    .item2 .yearContainer .my_title p{
+        font-size:3em;
+        color: #FFFFFF;
+    }
+
+    .item2 .itemContainer .yearContainer  .my_content p{
+        font-size:1.3em;
+        color: #FFFFFF;
+    }
+    .item2 .navBtnC{
+        opacity:0;
+    }
+}
+@media screen and (max-width: 767px) and (orientation: landscape){
+
+    .item2 .yearContainer .my_year p{
+        font-size:3em;
+        color: #FFFFFF;
+    }
+
+    .item2 .yearContainer .my_title p{
+        font-size:2.3em;
+        color: #FFFFFF;
+    }
+
+    .item2 .itemContainer .yearContainer  .my_content p{
+        font-size:1em;
+        color: #FFFFFF;
+    }
+}
