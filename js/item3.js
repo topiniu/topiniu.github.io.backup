@@ -26,7 +26,7 @@ function showProject(flag){
       var scrollLeft = $('.item3 .window').scrollLeft();
       var total = scrollLeft+1000;
         $(".item3 .project_preview").animate({
-            left: total + 'px'
+            left: '100%'
         },100);
     }
 }

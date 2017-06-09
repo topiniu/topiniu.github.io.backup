@@ -37,6 +37,7 @@ body,html{
 }
 @media screen and (min-width:767px) {
     .colorScreen{
+        display:none;
         width:20%;
         padding-bottom:20%;
     }
@@ -44,6 +45,7 @@ body,html{
 }
 @media screen and (min-width:991px) {
     .colorScreen{
+        display:none;
         width:10%;
         padding-bottom:10%;
     }
