@@ -47,11 +47,13 @@
   cursor: pointer;
 }
 .item3 .itemContainer .contentContainer .project_preview .cover {
+  display: inline-block;
+  opacity: 0;
+  transition: all .3s;
   position: absolute;
   width: 100%;
   z-index: 3;
   height: 100%;
-  display: inline-block;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -59,6 +61,7 @@
   color: #0c0c0c;
   position: relative;
   top: 50%;
+  font-size: 20px;
   display: inline-block;
   margin: 0;
   transform: translate(0, -50%);
@@ -71,7 +74,7 @@
   height: 1px;
   background: #0c0c0c;
   left: -35px;
-  top: 12px;
+  top: 15px;
 }
 .item3 .itemContainer .contentContainer .project_preview .cover p:after {
   position: relative;
@@ -80,8 +83,11 @@
   width: 30px;
   height: 1px;
   background: #0c0c0c;
-  left: 120px;
-  top: -12px;
+  left: 147px;
+  top: -15px;
+}
+.item3 .itemContainer .contentContainer .project_preview .show {
+  opacity: 1;
 }
 .item3 .itemContainer .contentContainer .project_preview img {
   position: absolute;

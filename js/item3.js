@@ -3,15 +3,11 @@
  */
 $(function () {
 
-    $(".project_preview a").hover(function () {
-            $(this).css({
-                "background-color": "rgba(0,0,0,0)"
-            });
+    $(".project_preview").hover(function () {
+        $(this).find('.cover').addClass('show');
         }, function () {
-            $(this).css({
-                "background-color": "rgba(0,0,0,0.3)"
-            });
-        });
+            $(this).find('.cover').removeClass('show');
+    });
 
 });
 
