@@ -118,3 +118,62 @@
 .trans{
     background-color: transparent;
 }
+
+
+/*.panel_style1{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(142,53,74);*/
+/*}*/
+.panel_style1 .name{
+    color: rgb(142,53,74);
+}
+
+/*.panel_style2{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(203,27,69);*/
+/*}*/
+.panel_style2 .name{
+    color: rgb(203,27,69);
+}
+
+/*.panel_style3{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(142,53,74);*/
+/*}*/
+.panel_style3 .name{
+    color: rgb(142,53,74);
+}
+
+/*.panel_style4{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(134,71,63);*/
+/*}*/
+.panel_style4 .name{
+    color: rgb(134,71,63);
+}
+
+/*.panel_style5{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(240,94,28);*/
+/*}*/
+.panel_style5 .name{
+    color: rgb(240,94,28);
+}
+
+/*.panel_style6{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(93,172,129);*/
+/*}*/
+.panel_style6 .name{
+    color: rgb(93,172,129);
+}
+
+/*.panel_style7{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(142,53,74);*/
+/*}*/
+.panel_style7 .name{
+    color: rgb(142,53,74);
+}
+
+/*.panel_style8{*/
+    /*box-shadow: 3px 3px 16px 2px rgb(46,169,223);*/
+/*}*/
+.panel_style8 .name{
+    color: rgb(46,169,223);
+}
+
+
