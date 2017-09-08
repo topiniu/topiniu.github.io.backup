@@ -34,7 +34,7 @@ function changeColor(row,col,cclassName){
 }
 
 $(function(){
-    loadImg();
+    // loadImg();
     setTimeout(loadP,800);
     //设置循环更改背景颜色函数  随机时间为3-8s
     setTimeout(function () {

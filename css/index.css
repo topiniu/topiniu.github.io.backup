@@ -4,7 +4,10 @@ body,html{
     margin:0;
     overflow: hidden;
 
-    font-family: 华文细黑;
+    font-family: PingFangSC-Regular,sans-serif;
+}
+*{
+    transition: all .3s;
 }
 .container{
     width:100%;

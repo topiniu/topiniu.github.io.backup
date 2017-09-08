@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/item3.css">
     <link rel="stylesheet" href="css/item4.css">
 
+<script src="js/blurImg.js"></script>
+
+
 
 </head>
 <body>
@@ -287,7 +290,11 @@
             <div class="contentContainer section item1">
                 <div class="itemContainer">
                     <div id="imgBox">
-                        <img class="myImg" src="img/img_low/main_l.jpg">
+                        <!-- <img class="myImg" src="img/img_low/main_l.jpg"> -->
+                        <img class="myImg"
+                         data-full="http://23.106.158.25:8080/Project_BackSky_New/data/uploadimg/full/UNADJUSTEDNONRAW_thumb_326.jpg"
+                         src="http://23.106.158.25:8080/Project_BackSky_New/data/uploadimg/compressed/UNADJUSTEDNONRAW_thumb_326.jpg"
+                        >
                     </div>
                     <div id="selfInfoBox">
                         <div class="contentBox clearfix">
@@ -304,8 +311,8 @@
 
                             <div class="rightBox" id="selfContentBox">
                                 <p>
-                                    Hello!欢迎浏览我的个人页面，如果你有任何疑问可以通过在最后一页我个人的联系方式联系我。
-                                    目前就读一所本科型院校，18年毕业。现在正在努力寻找一份前端工程师实习职位。如果你有好的推荐请联系我！谢谢！:P
+                                    前端小生一枚！努力学习前端工程化和框架应用中。拿手Html、Css、Js，不陌生Vue、Webpack、Git、Svn，敢用Nginx、tomcat(Java)，
+                                    习惯Vscode、Charles、Safari、Chrome，基于MBP(紧急情况下windows也能上)、Google。装的了系统翻的了护栏、做的了菜面的了基！
                                 </p>
                             </div>
                         </div>
@@ -377,28 +384,8 @@
 
             <div class="contentContainer section item3">
                 <div class="itemContainer">
-                    <div class="title">
-                        <h1>全部作品</h1>
-                    </div>
-                    <div class="contentContainer clearfix">
-                        <div class="project_preview room">
-                            <a class="pro_link" target="_blank" name="room" href="http://room.topiniu.com">
-                                <p name="room">ROOM</p>
-                            </a>
-                        </div>
-
-
-                        <div class="project_preview pa hoverBlack">
-                            <a class="pro_link " target="_blank" name="questionnaire" href="http://a.topiniu.com">
-                                <p name="questionnaire">QUESTIONNAIRE</p>
-                            </a>
-                        </div>
-
-                        <div class="project_preview pb hoverBlack">
-                            <a class="pro_link " target="_blank" name="eatwhat" href="http://b.topiniu.com">
-                                <p name="questionnaire">Eat What</p>
-                            </a>
-                        </div>
+                    <div class="product-img">
+                        <img src="img/project_img/p_room.png">
                     </div>
                 </div>
             </div>
@@ -469,10 +456,12 @@
 
 
 
+
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="dist/jquery.fullpage.js"></script>
 
 <script src="js/index.js"></script>
+
 <script src="js/item1.js"></script>
 <script src="js/ColorBlock.js"></script>
 <script src="js/item2.js"></script>
