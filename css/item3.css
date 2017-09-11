@@ -16,7 +16,7 @@
     height: 100%;
     background: transparent;
 }
-.type3_info_container .tag_clock{
+.type3_info_container .clock_line{
     position: absolute;
     display: inline-block;
     top: -123px;
@@ -24,16 +24,20 @@
 
 }
 .type3_info_container .p_info_text{
-    width: 200px;
+    max-width: 200px;
     background: #BDC0BA;
     padding: 5px 10px;    
+    display: inline-block;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transition: all 1s;
 }    
 .type3_info_container .p_info_text a{
     font-size: 0.8rem;
     color: #1C1C1C;    
     display: flex;
 }
-.type3_info_container .tag_clock::before{
+.type3_info_container .clock_line::before{
     content: ' ';
     display: block;
     position: absolute;
@@ -43,7 +47,7 @@
     left: 0;
     top: 0;
 }
-.type3_info_container .tag_clock::after{
+.type3_info_container .clock_line::after{
     content: ' ';
     position: absolute;
     width: 10px;
@@ -141,8 +145,133 @@
     top: 180px;
     left: -5px;
 }
+
+.type3_info_container .book_line{
+    position: absolute;
+    top: 105px;
+    left: -236px;
+}
+.type3_info_container .book_line::after{
+    content: ' ';
+    position: absolute;
+    width: 160px;
+    height: 1px;
+    background: #BDC0BA;
+    bottom: 0;
+    right: -158px;
+}
+.type3_info_container .book_line::before{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #BDC0BA;
+    display: block;
+    border: 1px solid #BDC0BA;
+    border-radius: 10px;
+    right: -168px;
+    bottom: -5px;
+}
+.type3_info_container .desk_line{
+    width: 1px;
+    height: 320px;
+    background: #BDC0BA;
+    position: absolute;
+    top: 172px;
+    left: 107px;
+}
+.type3_info_container .desk_line::after{
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #BDC0BA;
+    border-radius: 5px;
+    border: 1px solid #BDC0BA;
+    top: -5px;
+    left: -3px;
+}
+.type3_info_container .desk_line::before{
+    content: ' ';
+    position: absolute;
+    width: 333px;
+    height: 1px;
+    background: #BDC0BA;
+    bottom: 0;
+}
+.type3_info_container .desk_line_2{
+    left: 337px;
+    bottom: 2px;
+    top: auto;
+    height: 170px; 
+}
+.type3_info_container .desk_line_2::before{
+    width: 103px;
+}
+.type3_info_container .desk_line_3{
+    left: auto;
+    right: 240px;
+    top: auto;
+    /* bottom: -70px; */
+    /* height: 211px; */
+    width: 200px;
+    height: auto;
+    bottom: -110px;
+    right: 50px;
+}
+.type3_info_container .desk_line_3::after{
+    top: -210px;
+}
+.type3_info_container .desk_line_3::before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    background: #BDC0BA;
+    height: 270px;
+    left: 0;
+}
+.type3_info_container .backwall_line{
+    position: absolute;
+    top: 520px;
+    left: 70px;
+}
+    
+.type3_info_container .backwall_line::before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 260px;
+    background: #BDC0BA;
+    top: -260px;
+    left: 0;
+}
+.type3_info_container .backwall_line::after{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #BDC0BA;
+    border: 1px solid #BDC0BA;
+    border-radius: 10px;
+    /* top: 520px; */
+    top: -270px;
+    left: -5px;
+}
+.type3_info_container .pure_line{
+    opacity: 0;
+    transition: all 1s;
+}
+.type3_info_container .pure_line_show{
+    opacity: 1;
+}
+.type3_info_container .line_text_show{
+    opacity: 1;
+    transform: rotateY(0deg)
+}
+
 .item3 .itemContainer .title{
-    color: #000000;
+    color: ##BDC0BA;
     font-size: 40px;
     position: relative;
     top:10px;
@@ -157,134 +286,6 @@
     position: relative;
     width: 100%;
 }
-.item3 .itemContainer .title h1{
-    margin:10px 0 10px 0;
-}
-.item3 .itemContainer .contentContainer{
-    height:auto;
-    width:auto;
-
-    margin:5%;
-}
-
-.item3 .itemContainer .contentContainer .project_preview{
-    width:200px;
-    height:180px;
-    position: relative;
-
-    border-radius: 10px;
-    margin: 10px;
-    float: left;
-
-    border:1px solid #3c3c3c;
-
-    background-size: 100% 100% !important;
-
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    transition: all .1s;
-
-    transform-origin: 50% 50%;
-    transform: scale(0) rotateY(0deg) rotateX(0deg);
-
-
-}
-.item3 .itemContainer .contentContainer .project_preview a{
-    position: absolute;
-    width:200px;
-    height:180px;
-    z-index: 2;
-    color: #FFFFFF;
-    display: block;
-    background-color: rgba(0,0,0,0.3);
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-
-    border-radius: 10px;
-
-    transition: all .5s;
-}
-.item3 .itemContainer .contentContainer .project_preview a p{
-    position: absolute;
-    top: 50%;
-    /* left: 50%; */
-    /* height: 100%; */
-    width: 100%;
-    /* margin-top: -17px; */
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0;
-    /* margin-left: -62.2px; */
-    /* margin-top: -22.5px; */
-    word-wrap: break-word;
-    transform: translateZ(30px) translate(0,-50%);
-}
-.item3 .itemContainer .contentContainer .room{
-    background: url("http://topiniu.com/img/project_img/Room.png");
-}
-/*http://topiniu.github.io*/
-.item3 .itemContainer .contentContainer .pa{
-    background: url("http://topiniu.com/img/project_img/PA.png");
-
-}
-.item3 .itemContainer .contentContainer .pb{
-    background: url("http://topiniu.com/img/project_img/PB.png");
-}
-.hoverBlack a:hover{
-    color: #000 !important;
-}
-
-
-
 @media screen and (max-width: 767px) {
-    .item3 .itemContainer .title h1{
-        font-size:1.5em;
-        color: #FFFFFF;
-    }
-    .item3 .itemContainer .contentContainer{
-        margin:0;
-    }
-
-    .item3 .itemContainer .contentContainer .project_preview{
-        width:100%;
-        height:70px;
-        margin:10px 0 ;
-
-        background-repeat: no-repeat !important;
-        background-size: 20% 100% !important;
-        border:none;
-        border-radius: 0;
-        border:1px solid black;
-
-        /*right:-100%;*/
-    }
-
-    .item3 .itemContainer .contentContainer .project_preview a{
-        width:80%;
-        height:100%;
-
-
-        right:0;
-
-        border:none;
-        border-left:1px solid black;
-        border-radius: 0;
-        background-color: rgba(0,0,0,0.3) !important;
-
-
-        transition: all .5s;
-
-    }
-
-    .item3 .itemContainer .contentContainer .project_preview a p{
-        font-size:1.8em;
-    }
-
-    .item3 .itemContainer .contentContainer .project_preview a:hover{
-        background-color: #FFFFFF !important;
-        color: black;
-    }
+    
 }
