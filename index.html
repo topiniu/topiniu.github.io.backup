@@ -388,77 +388,39 @@
                         <img src="img/project_img/p_room.png">
 
                         <div class="type3_info_container">
-                            <span class="tag_clock p_info_text">
+                            <span class="clock_line p_info_text j_line_text">
                                 <a>使用canvas绘制的动态时钟，时间还是很准的</a>
                             </span>
-                            <span class="monitor_line"></span>
-                            <span class="window_line p_info_text">
+                            <span class="monitor_line pure_line j_line"></span>
+                            <span class="window_line p_info_text j_line_text">
                                 <a>
                                     使用了大量的css实现拟物，然后使用keyframe实现淡入淡出、交错下落、重复滚动动画。
                                 </a>
                             </span>
-                            <span class="cup_line"></span>
-                            
+                            <span class="cup_line pure_line j_line"></span>
+                            <span class="book_line p_info_text j_line_text">
+                                <a>使用rotate进行旋转，简单的div+css模拟真实书籍效果。</a>
+                            </span>
+                            <span class="desk_line desk_line_1 pure_line j_line"></span>
+                            <span class="desk_line desk_line_2 pure_line j_line"></span>
+                            <span class="desk_line desk_line_3 p_info_text j_line_text">
+                                <a>使用大量css实现模拟桌子、书架、抽屉。灵活运用::before和::after伪元素。</a>
+                            </span>
+                            <span class="backwall_line p_info_text j_line_text">
+                                <a>
+                                    使用background-image + linear-gradient模拟砖面效果。
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="contentContainer section item4">
-
-                <svg class="svg--source" width="0" height="0" aria-hidden="true">
-
-                    <symbol id="facebook" viewBox="0 0 32 32">
-                        <path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.824l.587-3.913h-4.41v-2.5c0-1.123.348-1.903 2.2-1.903H22V5.16z" fill-rule="evenodd"/>
-                    </symbol>
-
-                    <symbol id="email" viewBox="0 0 100 125">
-                        <path d="M91.946,20.054C90.691,18.794,88.927,17.999,87,18H13c-1.927-0.001-3.691,0.794-4.946,2.054   C6.794,21.309,5.999,23.073,6,25v52c-0.001,1.927,0.794,3.691,2.054,4.946C9.309,83.206,11.073,84.001,13,84h74   c1.927,0.001,3.691-0.794,4.946-2.054c1.26-1.255,2.055-3.02,2.054-4.946V25C94.001,23.073,93.206,21.309,91.946,20.054z    M88,73.432L64.24,51.5L88,29.568V73.432z M13,24h74c0.273,0.001,0.509,0.105,0.704,0.296c0.019,0.019,0.025,0.042,0.042,0.062   L54.787,54.782c-1.027,0.953-2.463,1.468-3.925,1.467c-1.409,0.001-2.789-0.477-3.803-1.37L12.271,24.333   c0.01-0.012,0.014-0.025,0.024-0.037C12.491,24.105,12.727,24.001,13,24z M12,73.582V29.417L37.149,51.5L12,73.582z M13.031,78   l27.149-23.838l4.24,3.723c1.826,1.601,4.148,2.363,6.441,2.364c2.378-0.001,4.784-0.821,6.638-2.527l3.792-3.5l25.75,23.77   C87.027,77.992,87.016,78,87,78H13.031z"/>
-                    </symbol>
-
-                    <symbol id="github" viewBox="0 0 438.5 438.5">
-                        <path d="M409.1 114.6c-19.6-33.6-46.2-60.2-79.8-79.8-33.6-19.6-70.2-29.4-110-29.4s-76.5 9.8-110.1 29.4C75.6 54.4 49 81 29.4 114.6 9.8 148.2 0 184.9 0 224.6c0 47.8 13.9 90.7 41.8 128.9s63.9 64.6 108.1 79.2c5.1 1 8.9.3 11.4-2s3.7-5.1 3.7-8.6c0-.6 0-5.7-.1-15.4s-.1-18.2-.1-25.4l-6.6 1.1c-4.2.8-9.5 1.1-15.8 1-6.4-.1-13-.8-19.8-2-6.9-1.2-13.2-4.1-19.1-8.6-5.9-4.5-10.1-10.3-12.6-17.6l-2.9-6.6c-1.9-4.4-4.9-9.2-9-14.6-4.1-5.3-8.2-8.9-12.4-10.8l-2-1.4c-1.3-1-2.6-2.1-3.7-3.4-1.1-1.3-2-2.7-2.6-4-.6-1.3-.1-2.4 1.4-3.3S64 310 68 310l5.7.9c3.8.8 8.5 3 14.1 6.9 5.6 3.8 10.2 8.8 13.8 14.8 4.4 7.8 9.7 13.8 15.8 17.8 6.2 4.1 12.4 6.1 18.7 6.1s11.7-.5 16.3-1.4c4.6-1 8.8-2.4 12.8-4.3 1.7-12.8 6.4-22.6 14-29.4-10.8-1.1-20.6-2.9-29.3-5.1-8.7-2.3-17.6-6-26.8-11.1s-16.9-11.5-23-19.1c-6.1-7.6-11.1-17.6-15-30-3.9-12.4-5.9-26.6-5.9-42.8 0-23 7.5-42.6 22.6-58.8-7-17.3-6.4-36.7 2-58.2 5.5-1.7 13.7-.4 24.6 3.9 10.9 4.3 18.8 8 23.8 11s9.1 5.6 12.1 7.7c17.7-4.9 36-7.4 54.8-7.4s37.1 2.5 54.8 7.4l10.8-6.8c7.4-4.6 16.2-8.8 26.3-12.6 10.1-3.8 17.8-4.9 23.1-3.1 8.6 21.5 9.3 40.9 2.3 58.2 15 16.2 22.6 35.8 22.6 58.8 0 16.2-2 30.5-5.9 43-3.9 12.5-8.9 22.5-15.1 30-6.2 7.5-13.9 13.9-23.1 19-9.2 5.1-18.2 8.9-26.8 11.1-8.7 2.3-18.4 4-29.3 5.1 9.9 8.6 14.8 22.1 14.8 40.5v60.2c0 3.4 1.2 6.3 3.6 8.6 2.4 2.3 6.1 3 11.3 2 44.2-14.7 80.2-41.1 108.1-79.2 27.9-38.2 41.8-81.1 41.8-128.9.1-39.9-9.7-76.6-29.3-110.2z"/>
-                    </symbol>
-                </svg>
-
-                <div class="itemContainer">
-                    <div class="contactContainer">
-                        <div class="textContainer clearfix">
-                            <div class="clearfix">
-
-                                <p>
-                                    感谢：
-                                </p>
-                                <a class="secondP_1" href="https://jquery.com/" title="访问JQuery官网">JQuery</a>
-                                <a class="secondP_2" href="http://alvarotrigo.com/fullPage/" title="访问FullPage官网">FullPage.js</a>
-                                <a class="secondP_3" href="http://codepen.io/Torchbox/pen/NArrrQ?editors=1010" title="访问SVG Icon library的CodePen">SVG Icon library</a>
-
-                            </div>
-                            <div>
-                                <p>点击名称可访问其官网。;)</p>
-                            </div>
-                        </div>
-                        <div class="contactBtn clearfix">
-
-                            <a href="mailto:topiniu@outlook.com" class="share email">
-                                <svg role="presentation" class="svg--icon">
-                                    <use xlink:href="#email"></use>
-                                </svg>
-                            </a>
-
-                            <a href="https://www.facebook.com/topiniu" target="_blank" class="share facebook">
-                                <svg role="presentation" class="svg--icon">
-                                    <use xlink:href="#facebook" />
-                                </svg>
-                            </a>
-
-
-                            <a href="https://www.github.com/topiniu" target="_blank" class="share github">
-                                <svg role="presentation" class="svg--icon">
-                                    <use xlink:href="#github" />
-                                </svg>
-                            </a>
-
-
+                <div class="itemContainer type4_container">
+                    <div class="product-img">
+                        <img src="img/project_img/pa_4.png">
+                        <div class="type4_info_container">
+                            
                         </div>
                     </div>
                 </div>

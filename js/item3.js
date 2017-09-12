@@ -90,3 +90,23 @@ function mobileShowProLink(flag) {
         });
     }
 }
+
+//Version 2 js method
+function showLine(flag){
+    console.log(flag);
+    if(!flag){
+        $('.type3_info_container').find('.j_line_text').removeClass('line_text_show');
+        $('.type3_info_container').find('.j_line').removeClass('pure_line_show');
+        return;
+    }
+    var items = $('.type3_info_container').find('.j_line_text');
+    items.each(function(i,e){
+        (function(i,e){
+            setTimeout(function(){
+            $(e).addClass('line_text_show');
+            console.log(i);
+            },i*100)
+    })(i,e);
+    })
+    $('.type3_info_container').find('.j_line').addClass('pure_line_show')
+}

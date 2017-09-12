@@ -86,7 +86,7 @@ $(function(){
                 }
             }else if(index==3){//item 3 leave
                 // mobileShowProLink();
-                showProject(0);
+                showLine(false);
             }
 
             if(nextIndex==2){//will into item 2
@@ -102,7 +102,8 @@ $(function(){
             if(index==4){//item 4 loaded
                 toggleContactBtn(1);
             }else if(index==3){//item 3 loaded
-                showProject(1);
+                showLine(true);
+                //showProject(1);
                 // mobileShowProLink();
             }
         }

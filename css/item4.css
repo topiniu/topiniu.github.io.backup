@@ -1,192 +1,44 @@
-.item4 .contentContainer{
+.item4 .itemContainer{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
-.item4 .contactBtn{
-    height:34.5px;
+.type4_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.item4 #email,.item4 #email:before,.item4 #email:after{
-    width:0;
-    height:0;
-    border-style:solid;
-
-    border-radius: 5px;
-}
-.item4 .icon{
-    position: relative;
-    margin:0 10px 0 10px;
-    float: left;
-}
-.item4 .contactBtn{
+.type4_info_container{
     position: absolute;
-    width: 362px;
-    height: 76px;
-
-    right:0;
-    bottom: -80px;
-
-    transition: all .2s;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
 }
-
-
-.item4 .svg--source{
-    display: none;
-}
-.item4 .contactBtn .svg--icon {
-    width: 3em;
-    height:100%;
-    display: block;
-    margin: 0 auto;
-    fill:currentColor;
-}
-.item4 .contactBtn a:nth-child(1){
-    left:8%;
-    margin-top: 4%;
-}
-.item4 .contactBtn a:nth-child(2){
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 2%;
-}
-.item4 .contactBtn a:nth-child(3){
-    margin-top: 3%;
-    right: 8%;
-    height: 46px;
-}
-
-.item4 .contactBtn .share {
-    height: 60px;
-    color: black;
-    position: absolute;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-
-.item4 .contactBtn .share:hover{
-    color: red;
-}
-
-.item4 .contactContainer .textContainer{
-    /*font-weight:lighter;*/
-}
-.item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
-    color: #000000;
-    font-size:2em;
-    font-weight: bold;
-}
-.item4 .contactContainer .textContainer p:last-child{
-    color: #000000;
-    font-size:1.3em;
-    margin:100px 0 0 100px;
-
-    /*font-weight:lighter;*/
-}
-.item4 .contactContainer .textContainer a{
-    color: #000000;
-    text-decoration: none;
+.type4_info_container .p_info_text{
+    max-width: 200px;
+    background: #BDC0BA;
+    padding: 5px 10px;
     display: inline-block;
+    /* opacity: 0;
+    transform: rotateY(90deg); */
+    transition: all .3s;    
+}
+
+.item4 .itemContainer .product-img{
     position: relative;
-    left:30%;
-    display: block;
-    margin-top:5%;
-    /*margin:15px 0 15px 150px;*/
-
-    font-size:1.2em;
-
-    transition: all .5s;
+    display: inline-block;
+    width: 710.25px;
 }
-.item4 .contactContainer .textContainer .secondP_1:hover{
-    color: #0769ad;
+.item4 .itemContainer .product-img img{
+    position: relative;
+    width: 100%;
 }
-.item4 .contactContainer .textContainer .secondP_2:hover{
-    color: rgb(27, 188, 155);
-}
-.item4 .contactContainer .textContainer .secondP_3:hover{
-    color: #173bff;
-}
-
 @media screen and (max-width: 767px) {
-    .item4 .itemContainer{
-        width:100%;
-        height:100%;
-    }
-    .item4 .itemContainer .contactContainer,.item3 .itemContainer .contactContainer .textContainer{
-        position: relative;
-        width:100%;
-        height:100%;
-    }
-    .item4 .contactContainer .textContainer{
-        position: relative;
-        top:50%;
-        transform: translate(0,-72%);
-    }
-    .item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
-        padding-left:30px;
-        margin:0;
-        margin-bottom:20px;
-    }
-    .item4 .itemContainer .textContainer div:nth-child(2){
-        margin-top:20%;
-        padding:10px 30px;
-    }
-    .item4 .itemContainer .textContainer div:nth-child(2) p{
-        margin:0;
-    }
-    /*.item4 .contactContainer .textContainer a {*/
-        /*margin: 5% 0 2% 30%;*/
-    /*}*/
-
-
-    .item4 .contactBtn{
-        width:100%;
-    }
-
-    .item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
-        color: #FFFFFF;
-    }
-    .item4 .contactContainer .textContainer p:last-child{
-        color: #FFFFFF;
-
-        /*font-weight:lighter;*/
-    }
-    .item4 .contactContainer .textContainer a{
-        color: #FFFFFF;
-    }
-
-    .item4 .contactBtn .svg--icon {
-        fill:white;
-    }
-    /*.item4 .contactBtn .share:hover{*/
-        /*color: red;*/
-    /*}*/
-
+    
 }
 
 @media screen and (max-width: 767px) and (orientation: landscape){
-    .item4 .itemContainer .textContainer div:nth-child(1){
-        float: left;
-    }
-    .item4 .itemContainer .textContainer div:nth-child(2){
-        float: right;
-        margin-top: 10%;
-        border-left:2px solid red;
-    }
-
-    .item4 .contactContainer .textContainer div:nth-child(1) p:first-child{
-        color: #FFFFFF;
-    }
-    .item4 .contactContainer .textContainer p:last-child{
-        color: #FFFFFF;
-
-    }
-    .item4 .contactContainer .textContainer a{
-        color: #FFFFFF;
-    }
-    .item4 .contactBtn .svg--icon {
-        fill:white;
-    }
-    /*.item4 .contactBtn .share:hover{*/
-        /*color: red;*/
-    /*}*/
-
+    
 }
