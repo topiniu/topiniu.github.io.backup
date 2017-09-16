@@ -11,3 +11,7 @@ function toggleContactBtn(flag){
             "bottom":"-80px"
         });
 }
+
+$('j_toggle_btn').on('click',function(){
+    
+})
