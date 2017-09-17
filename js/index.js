@@ -95,6 +95,8 @@ $(function(){
                 }else{
                     showPanel_pc(1);
                 }
+            }else if(nextIndex==4){
+                initProductsStyle();
             }
         },
         afterLoad: function(anchorLink,index){

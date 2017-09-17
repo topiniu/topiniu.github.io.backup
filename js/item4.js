@@ -15,3 +15,18 @@ function toggleContactBtn(flag){
 $('j_toggle_btn').on('click',function(){
     
 })
+
+// init hidden style
+function initProductsStyle(){
+    var windowWidth = window.innerWidth;
+    $('.products').each(function(i,e) {
+        
+        if(i!==0){
+            var v = i*windowWidth + 300;
+            console.log(v);
+            $(e).css('left',v);
+        }
+       
+
+    });
+}
