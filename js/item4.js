@@ -12,9 +12,12 @@ function toggleContactBtn(flag){
         });
 }
 
+function bindToggle(){
 $('j_toggle_btn').on('click',function(){
+    console.log('bind');
     
 })
+}
 
 // init hidden style
 function initProductsStyle(){
